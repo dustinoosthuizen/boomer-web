@@ -1,0 +1,53 @@
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /*background: url(http://www.pulserealestateonline.com/todd.jpg)*/
+    /*background: url(http://localhost:9000/assets/images/bg4.jpg)*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;"
+}
+
+.background {
+    background: url(http://localhost:9000/assets/images/bg4.jpg) no-repeat center center fixed;
+
+}
+
+.white {
+    color: white;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    font-style:  normal;
+    font-weight: 400;
+    font-size: xx-large;
+}
+p, div {
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    font-style:  normal;
+    font-weight: 400;
+    font-size: large;
+}
+
+
+/*.registrationTable{*/
+    /*width: 300px;*/
+    /*display: block;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+
+/*}*/
+
+
+.gridStyle {
+    border: 1px solid rgb(212,212,212);
+    width: 400px;
+    height: 300px
+}
+

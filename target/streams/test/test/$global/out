@@ -1,0 +1,28 @@
+[0m[[0mdebug[0m] [0m[34mTest run started[0m[0m
+[0m[[0mdebug[0m] [0mTest [33mMailSenderTest[0m.[36mtestMailSender[0m started[0m
+[0m[[31merror[0m] [0mTest [33mMailSenderTest[0m.[31mtestMailSender[0m failed: java.lang.[31mRuntimeException[0m: There is no started application[0m
+[0m[[31merror[0m] [0m    at scala.sys.package$.error(package.scala:27)[0m
+[0m[[31merror[0m] [0m    at play.api.Play$$anonfun$current$1.apply(Play.scala:68)[0m
+[0m[[31merror[0m] [0m    at play.api.Play$$anonfun$current$1.apply(Play.scala:68)[0m
+[0m[[31merror[0m] [0m    at scala.Option.getOrElse(Option.scala:120)[0m
+[0m[[31merror[0m] [0m    at play.api.Play$.current(Play.scala:68)[0m
+[0m[[31merror[0m] [0m    at play.api.Play.current(Play.scala)[0m
+[0m[[31merror[0m] [0m    at play.Play.application(Play.java:12)[0m
+[0m[[31merror[0m] [0m    at utils.MailSender.sendConfirmationEmail(MailSender.java:12)[0m
+[0m[[31merror[0m] [0m    at MailSenderTest.testMailSender([35mMailSenderTest.java[0m:[33m12[0m)[0m
+[0m[[31merror[0m] [0m    ...[0m
+[0m[[0mdebug[0m] [0mTest [33mMailSenderTest[0m.[36mtestMailSender[0m finished[0m
+[0m[[0mdebug[0m] [0m[34mTest run finished: [0m[31m1 failed[0m[34m, [0m[34m0 ignored[0m[34m, 1 total, 0.24s[0m[0m
+[0m[[0mdebug[0m] [0m[34mTest run started[0m[0m
+[0m[[0mdebug[0m] [0mTest [33mUserTest[0m.[36mtestCrud[0m started[0m
+[0m[[0mdebug[0m] [0mTest [33mUserTest[0m.[36mtestCrud[0m finished[0m
+[0m[[0mdebug[0m] [0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 1 total, 0.885s[0m[0m
+[0m[[0mdebug[0m] [0mFramework implementation 'org.specs2.runner.Specs2Framework' not present.[0m
+[0m[[0mdebug[0m] [0mSummary for JUnit not available.[0m
+[0m[[0mdebug[0m] [0mSummary for specs2 not available.[0m
+[0m[[31merror[0m] [0mFailed: Total 2, Failed 1, Errors 0, Passed 1[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	UserTest[0m
+[0m[[31merror[0m] [0mFailed tests:[0m
+[0m[[31merror[0m] [0m	MailSenderTest[0m
+[0m[[31merror[0m] [0m(test:[31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

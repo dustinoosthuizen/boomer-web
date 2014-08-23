@@ -1,0 +1,1763 @@
+2014-08-17 15:54:24,870 - [INFO] - from play in pool-4-thread-4 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2014-08-17 15:54:33,834 - [DEBUG] - from play in play-internal-execution-context-1 
+Plugin [play.api.db.BoneCPPlugin] is disabled
+
+2014-08-17 15:54:33,837 - [DEBUG] - from play in play-internal-execution-context-1 
+Plugin [play.api.db.evolutions.EvolutionsPlugin] is disabled
+
+2014-08-17 15:54:34,219 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-1 
+Configuring ehcache from URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 15:54:34,219 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-1 
+Configuring ehcache from InputStream
+
+2014-08-17 15:54:34,245 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-1 
+Ignoring ehcache attribute xmlns:xsi
+
+2014-08-17 15:54:34,245 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-1 
+Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+
+2014-08-17 15:54:34,258 - [DEBUG] - from net.sf.ehcache.CacheManager in play-internal-execution-context-1 
+Creating new CacheManager with config URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 15:54:34,266 - [DEBUG] - from net.sf.ehcache.util.PropertyUtil in play-internal-execution-context-1 
+propertiesString is null.
+
+2014-08-17 15:54:34,284 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-1 
+No CacheManagerEventListenerFactory class specified. Skipping...
+
+2014-08-17 15:54:34,303 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-1 
+No BootstrapCacheLoaderFactory class specified. Skipping...
+
+2014-08-17 15:54:34,303 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-1 
+CacheWriter factory not configured. Skipping...
+
+2014-08-17 15:54:34,305 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-1 
+No CacheExceptionHandlerFactory class specified. Skipping...
+
+2014-08-17 15:54:34,324 - [DEBUG] - from net.sf.ehcache.store.MemoryStore in play-internal-execution-context-1 
+Initialized net.sf.ehcache.store.NotifyingMemoryStore for play
+
+2014-08-17 15:54:34,333 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-1 
+Initialised cache: play
+
+2014-08-17 15:54:34,333 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-1 
+CacheDecoratorFactory not configured for defaultCache. Skipping for 'play'.
+
+2014-08-17 15:54:34,336 - [DEBUG] - from application in play-internal-execution-context-1 
+** onStart **
+
+2014-08-17 15:54:34,980 - [DEBUG] - from org.bson.ObjectId in play-internal-execution-context-1 
+machine piece post: 44ae0000
+
+2014-08-17 15:54:34,982 - [DEBUG] - from org.bson.ObjectId in play-internal-execution-context-1 
+process piece: 5117
+
+2014-08-17 15:54:34,982 - [DEBUG] - from org.bson.ObjectId in play-internal-execution-context-1 
+machine : 44ae5117
+
+2014-08-17 15:54:35,004 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ObjectName = JMImplementation:type=MBeanServerDelegate
+
+2014-08-17 15:54:35,004 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+name = JMImplementation:type=MBeanServerDelegate
+
+2014-08-17 15:54:35,004 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+Send create notification of object JMImplementation:type=MBeanServerDelegate
+
+2014-08-17 15:54:35,005 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+JMX.mbean.registered JMImplementation:type=MBeanServerDelegate
+
+2014-08-17 15:54:35,006 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ name = java.lang:type=ClassLoading
+
+2014-08-17 15:54:35,011 - [DEBUG] - from javax.management.misc in play-internal-execution-context-1 
+Building MBeanInfo for sun.management.ClassLoadingImpl
+
+2014-08-17 15:54:35,011 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ObjectName = java.lang:type=ClassLoading
+
+2014-08-17 15:54:35,011 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+name = java.lang:type=ClassLoading
+
+2014-08-17 15:54:35,012 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+Send create notification of object java.lang:type=ClassLoading
+
+2014-08-17 15:54:35,012 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+JMX.mbean.registered java.lang:type=ClassLoading
+
+2014-08-17 15:54:35,012 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ name = java.lang:type=Compilation
+
+2014-08-17 15:54:35,012 - [DEBUG] - from javax.management.misc in play-internal-execution-context-1 
+Building MBeanInfo for sun.management.CompilationImpl
+
+2014-08-17 15:54:35,012 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ObjectName = java.lang:type=Compilation
+
+2014-08-17 15:54:35,012 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+name = java.lang:type=Compilation
+
+2014-08-17 15:54:35,013 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+Send create notification of object java.lang:type=Compilation
+
+2014-08-17 15:54:35,013 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+JMX.mbean.registered java.lang:type=Compilation
+
+2014-08-17 15:54:35,013 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ name = java.lang:type=Memory
+
+2014-08-17 15:54:35,014 - [DEBUG] - from javax.management.misc in play-internal-execution-context-1 
+Building MBeanInfo for sun.management.MemoryImpl
+
+2014-08-17 15:54:35,014 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ObjectName = java.lang:type=Memory
+
+2014-08-17 15:54:35,015 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+name = java.lang:type=Memory
+
+2014-08-17 15:54:35,015 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+Send create notification of object java.lang:type=Memory
+
+2014-08-17 15:54:35,015 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+JMX.mbean.registered java.lang:type=Memory
+
+2014-08-17 15:54:35,015 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ name = java.lang:type=GarbageCollector,name=PS Scavenge
+
+2014-08-17 15:54:35,017 - [DEBUG] - from javax.management.misc in play-internal-execution-context-1 
+Building MBeanInfo for sun.management.GarbageCollectorImpl
+
+2014-08-17 15:54:35,017 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ObjectName = java.lang:type=GarbageCollector,name=PS Scavenge
+
+2014-08-17 15:54:35,017 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+name = java.lang:type=GarbageCollector,name=PS Scavenge
+
+2014-08-17 15:54:35,017 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+Send create notification of object java.lang:name=PS Scavenge,type=GarbageCollector
+
+2014-08-17 15:54:35,017 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+JMX.mbean.registered java.lang:type=GarbageCollector,name=PS Scavenge
+
+2014-08-17 15:54:35,017 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ name = java.lang:type=GarbageCollector,name=PS MarkSweep
+
+2014-08-17 15:54:35,017 - [DEBUG] - from javax.management.misc in play-internal-execution-context-1 
+Building MBeanInfo for sun.management.GarbageCollectorImpl
+
+2014-08-17 15:54:35,017 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ObjectName = java.lang:type=GarbageCollector,name=PS MarkSweep
+
+2014-08-17 15:54:35,017 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+name = java.lang:type=GarbageCollector,name=PS MarkSweep
+
+2014-08-17 15:54:35,018 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+Send create notification of object java.lang:name=PS MarkSweep,type=GarbageCollector
+
+2014-08-17 15:54:35,018 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+JMX.mbean.registered java.lang:type=GarbageCollector,name=PS MarkSweep
+
+2014-08-17 15:54:35,018 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ name = java.lang:type=MemoryManager,name=CodeCacheManager
+
+2014-08-17 15:54:35,018 - [DEBUG] - from javax.management.misc in play-internal-execution-context-1 
+Building MBeanInfo for sun.management.MemoryManagerImpl
+
+2014-08-17 15:54:35,018 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ObjectName = java.lang:type=MemoryManager,name=CodeCacheManager
+
+2014-08-17 15:54:35,018 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+name = java.lang:type=MemoryManager,name=CodeCacheManager
+
+2014-08-17 15:54:35,018 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+Send create notification of object java.lang:name=CodeCacheManager,type=MemoryManager
+
+2014-08-17 15:54:35,018 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+JMX.mbean.registered java.lang:type=MemoryManager,name=CodeCacheManager
+
+2014-08-17 15:54:35,019 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ name = java.lang:type=GarbageCollector,name=PS Scavenge
+
+2014-08-17 15:54:35,019 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ name = java.lang:type=GarbageCollector,name=PS MarkSweep
+
+2014-08-17 15:54:35,019 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ name = java.lang:type=MemoryPool,name=Code Cache
+
+2014-08-17 15:54:35,020 - [DEBUG] - from javax.management.misc in play-internal-execution-context-1 
+Building MBeanInfo for sun.management.MemoryPoolImpl
+
+2014-08-17 15:54:35,020 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ObjectName = java.lang:type=MemoryPool,name=Code Cache
+
+2014-08-17 15:54:35,020 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+name = java.lang:type=MemoryPool,name=Code Cache
+
+2014-08-17 15:54:35,021 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+Send create notification of object java.lang:name=Code Cache,type=MemoryPool
+
+2014-08-17 15:54:35,021 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+JMX.mbean.registered java.lang:type=MemoryPool,name=Code Cache
+
+2014-08-17 15:54:35,021 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ name = java.lang:type=MemoryPool,name=PS Eden Space
+
+2014-08-17 15:54:35,021 - [DEBUG] - from javax.management.misc in play-internal-execution-context-1 
+Building MBeanInfo for sun.management.MemoryPoolImpl
+
+2014-08-17 15:54:35,021 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ObjectName = java.lang:type=MemoryPool,name=PS Eden Space
+
+2014-08-17 15:54:35,021 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+name = java.lang:type=MemoryPool,name=PS Eden Space
+
+2014-08-17 15:54:35,021 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+Send create notification of object java.lang:name=PS Eden Space,type=MemoryPool
+
+2014-08-17 15:54:35,021 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+JMX.mbean.registered java.lang:type=MemoryPool,name=PS Eden Space
+
+2014-08-17 15:54:35,021 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ name = java.lang:type=MemoryPool,name=PS Survivor Space
+
+2014-08-17 15:54:35,021 - [DEBUG] - from javax.management.misc in play-internal-execution-context-1 
+Building MBeanInfo for sun.management.MemoryPoolImpl
+
+2014-08-17 15:54:35,021 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ObjectName = java.lang:type=MemoryPool,name=PS Survivor Space
+
+2014-08-17 15:54:35,021 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+name = java.lang:type=MemoryPool,name=PS Survivor Space
+
+2014-08-17 15:54:35,021 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+Send create notification of object java.lang:name=PS Survivor Space,type=MemoryPool
+
+2014-08-17 15:54:35,022 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+JMX.mbean.registered java.lang:type=MemoryPool,name=PS Survivor Space
+
+2014-08-17 15:54:35,022 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ name = java.lang:type=MemoryPool,name=PS Old Gen
+
+2014-08-17 15:54:35,022 - [DEBUG] - from javax.management.misc in play-internal-execution-context-1 
+Building MBeanInfo for sun.management.MemoryPoolImpl
+
+2014-08-17 15:54:35,022 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ObjectName = java.lang:type=MemoryPool,name=PS Old Gen
+
+2014-08-17 15:54:35,022 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+name = java.lang:type=MemoryPool,name=PS Old Gen
+
+2014-08-17 15:54:35,022 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+Send create notification of object java.lang:name=PS Old Gen,type=MemoryPool
+
+2014-08-17 15:54:35,022 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+JMX.mbean.registered java.lang:type=MemoryPool,name=PS Old Gen
+
+2014-08-17 15:54:35,022 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ name = java.lang:type=MemoryPool,name=PS Perm Gen
+
+2014-08-17 15:54:35,022 - [DEBUG] - from javax.management.misc in play-internal-execution-context-1 
+Building MBeanInfo for sun.management.MemoryPoolImpl
+
+2014-08-17 15:54:35,022 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ObjectName = java.lang:type=MemoryPool,name=PS Perm Gen
+
+2014-08-17 15:54:35,022 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+name = java.lang:type=MemoryPool,name=PS Perm Gen
+
+2014-08-17 15:54:35,022 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+Send create notification of object java.lang:name=PS Perm Gen,type=MemoryPool
+
+2014-08-17 15:54:35,023 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+JMX.mbean.registered java.lang:type=MemoryPool,name=PS Perm Gen
+
+2014-08-17 15:54:35,023 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ name = java.lang:type=OperatingSystem
+
+2014-08-17 15:54:35,024 - [DEBUG] - from javax.management.misc in play-internal-execution-context-1 
+Building MBeanInfo for com.sun.management.UnixOperatingSystem
+
+2014-08-17 15:54:35,024 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ObjectName = java.lang:type=OperatingSystem
+
+2014-08-17 15:54:35,024 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+name = java.lang:type=OperatingSystem
+
+2014-08-17 15:54:35,024 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+Send create notification of object java.lang:type=OperatingSystem
+
+2014-08-17 15:54:35,024 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+JMX.mbean.registered java.lang:type=OperatingSystem
+
+2014-08-17 15:54:35,024 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ name = java.lang:type=Runtime
+
+2014-08-17 15:54:35,026 - [DEBUG] - from javax.management.misc in play-internal-execution-context-1 
+Building MBeanInfo for sun.management.RuntimeImpl
+
+2014-08-17 15:54:35,026 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ObjectName = java.lang:type=Runtime
+
+2014-08-17 15:54:35,026 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+name = java.lang:type=Runtime
+
+2014-08-17 15:54:35,026 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+Send create notification of object java.lang:type=Runtime
+
+2014-08-17 15:54:35,026 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+JMX.mbean.registered java.lang:type=Runtime
+
+2014-08-17 15:54:35,026 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ name = java.lang:type=Threading
+
+2014-08-17 15:54:35,032 - [DEBUG] - from javax.management.misc in play-internal-execution-context-1 
+Building MBeanInfo for sun.management.ThreadImpl
+
+2014-08-17 15:54:35,032 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ObjectName = java.lang:type=Threading
+
+2014-08-17 15:54:35,032 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+name = java.lang:type=Threading
+
+2014-08-17 15:54:35,032 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+Send create notification of object java.lang:type=Threading
+
+2014-08-17 15:54:35,033 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+JMX.mbean.registered java.lang:type=Threading
+
+2014-08-17 15:54:35,033 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ name = java.util.logging:type=Logging
+
+2014-08-17 15:54:35,035 - [DEBUG] - from javax.management.misc in play-internal-execution-context-1 
+Building MBeanInfo for sun.management.ManagementFactoryHelper$PlatformLoggingImpl
+
+2014-08-17 15:54:35,036 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ObjectName = java.util.logging:type=Logging
+
+2014-08-17 15:54:35,036 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+name = java.util.logging:type=Logging
+
+2014-08-17 15:54:35,036 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+Send create notification of object java.util.logging:type=Logging
+
+2014-08-17 15:54:35,036 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+JMX.mbean.registered java.util.logging:type=Logging
+
+2014-08-17 15:54:35,036 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ name = java.nio:type=BufferPool,name=direct
+
+2014-08-17 15:54:35,037 - [DEBUG] - from javax.management.misc in play-internal-execution-context-1 
+Building MBeanInfo for sun.management.ManagementFactoryHelper$1
+
+2014-08-17 15:54:35,037 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ObjectName = java.nio:type=BufferPool,name=direct
+
+2014-08-17 15:54:35,038 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+name = java.nio:type=BufferPool,name=direct
+
+2014-08-17 15:54:35,038 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+Send create notification of object java.nio:name=direct,type=BufferPool
+
+2014-08-17 15:54:35,038 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+JMX.mbean.registered java.nio:type=BufferPool,name=direct
+
+2014-08-17 15:54:35,038 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ name = java.nio:type=BufferPool,name=mapped
+
+2014-08-17 15:54:35,038 - [DEBUG] - from javax.management.misc in play-internal-execution-context-1 
+Building MBeanInfo for sun.management.ManagementFactoryHelper$1
+
+2014-08-17 15:54:35,038 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ObjectName = java.nio:type=BufferPool,name=mapped
+
+2014-08-17 15:54:35,038 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+name = java.nio:type=BufferPool,name=mapped
+
+2014-08-17 15:54:35,039 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+Send create notification of object java.nio:name=mapped,type=BufferPool
+
+2014-08-17 15:54:35,039 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+JMX.mbean.registered java.nio:type=BufferPool,name=mapped
+
+2014-08-17 15:54:35,039 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ name = java.lang:type=GarbageCollector,name=PS Scavenge
+
+2014-08-17 15:54:35,039 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ name = java.lang:type=GarbageCollector,name=PS MarkSweep
+
+2014-08-17 15:54:35,039 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ name = java.lang:type=OperatingSystem
+
+2014-08-17 15:54:35,039 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ name = java.lang:type=OperatingSystem
+
+2014-08-17 15:54:35,039 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ name = com.sun.management:type=HotSpotDiagnostic
+
+2014-08-17 15:54:35,041 - [DEBUG] - from javax.management.misc in play-internal-execution-context-1 
+Building MBeanInfo for sun.management.HotSpotDiagnostic
+
+2014-08-17 15:54:35,041 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ObjectName = com.sun.management:type=HotSpotDiagnostic
+
+2014-08-17 15:54:35,041 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+name = com.sun.management:type=HotSpotDiagnostic
+
+2014-08-17 15:54:35,041 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+Send create notification of object com.sun.management:type=HotSpotDiagnostic
+
+2014-08-17 15:54:35,041 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+JMX.mbean.registered com.sun.management:type=HotSpotDiagnostic
+
+2014-08-17 15:54:35,041 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=1
+
+2014-08-17 15:54:35,043 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+ObjectName = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=1
+
+2014-08-17 15:54:35,043 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=1
+
+2014-08-17 15:54:35,043 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+Send create notification of object com.mongodb:host=localhost/127.0.0.1,instance=1,port=27017,type=ConnectionPool
+
+2014-08-17 15:54:35,043 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-1 
+JMX.mbean.registered com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=1
+
+2014-08-17 15:54:35,081 - [INFO] - from com.google.code.morphia.logging.MorphiaLoggerFactory in play-internal-execution-context-1 
+LoggerImplFactory set to com.google.code.morphia.logging.slf4j.SLF4JLogrImplFactory
+
+2014-08-17 15:54:35,159 - [DEBUG] - from application in play-internal-execution-context-1 
+** Morphia datastore: boomer
+
+2014-08-17 15:54:35,188 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-08-17 15:54:35,767 - [INFO] - from akka.event.slf4j.Slf4jLogger in play-akka.actor.default-dispatcher-2 
+Slf4jLogger started
+
+2014-08-17 15:54:37,267 - [ERROR] - from play in play-internal-execution-context-1 
+Cannot invoke the action, eventually got an error: java.lang.NullPointerException
+
+2014-08-17 15:54:37,284 - [ERROR] - from application in play-internal-execution-context-1 
+
+
+! @6j8kh9ngb - Internal server error, for (GET) [/api/user/getByEmail/dustin.oosthuizen@gmail.com] ->
+
+play.api.Application$$anon$1: Execution exception[[NullPointerException: null]]
+	at play.api.Application$class.handleError(Application.scala:293) ~[play_2.10.jar:2.2.3]
+	at play.api.DefaultApplication.handleError(Application.scala:399) [play_2.10.jar:2.2.3]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$3.apply(PlayDefaultUpstreamHandler.scala:264) [play_2.10.jar:2.2.3]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$3.apply(PlayDefaultUpstreamHandler.scala:264) [play_2.10.jar:2.2.3]
+	at scala.Option.map(Option.scala:145) [scala-library-2.10.4.jar:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:264) [play_2.10.jar:2.2.3]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:260) [play_2.10.jar:2.2.3]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:344) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:343) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.10.4.jar:na]
+	at play.api.libs.iteratee.Execution$$anon$1.execute(Execution.scala:43) [play-iteratees_2.10.jar:2.2.3]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.10.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.10.4.jar:na]
+Caused by: java.lang.NullPointerException: null
+	at play.core.j.FPromiseHelper$$anonfun$flatMap$1.apply(FPromiseHelper.scala:82) ~[play_2.10.jar:2.2.3]
+	at play.core.j.FPromiseHelper$$anonfun$flatMap$1.apply(FPromiseHelper.scala:82) ~[play_2.10.jar:2.2.3]
+	at scala.concurrent.Future$$anonfun$flatMap$1.apply(Future.scala:251) ~[scala-library-2.10.4.jar:na]
+	at scala.concurrent.Future$$anonfun$flatMap$1.apply(Future.scala:249) ~[scala-library-2.10.4.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.10.4.jar:na]
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:37) ~[play_2.10.jar:2.2.3]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:42) ~[akka-actor_2.10.jar:2.2.0]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:386) ~[akka-actor_2.10.jar:2.2.0]
+	... 4 common frames omitted
+
+2014-08-17 15:55:01,137 - [DEBUG] - from org.springframework.beans.CachedIntrospectionResults in play-akka.actor.default-dispatcher-2 
+Not strongly caching class [forms.LoginRequest] because it is not cache-safe
+
+2014-08-17 15:55:01,223 - [DEBUG] - from com.google.code.morphia.mapping.MappedClass in play-akka.actor.default-dispatcher-2 
+MappedClass done: MappedClass - kind:User for model.User fields:[_id ( type:long, single:true); {interface com.google.code.morphia.annotations.Id=@com.google.code.morphia.annotations.Id()}, name ( type:String, single:true); {}, email ( type:String, single:true); {}, password ( type:String, single:true); {}, status ( type:String, single:true); {}]
+
+2014-08-17 16:04:20,070 - [DEBUG] - from org.springframework.beans.CachedIntrospectionResults in play-akka.actor.default-dispatcher-40 
+Not strongly caching class [forms.LoginRequest] because it is not cache-safe
+
+2014-08-17 16:08:24,582 - [DEBUG] - from org.springframework.beans.CachedIntrospectionResults in play-akka.actor.default-dispatcher-76 
+Not strongly caching class [forms.LoginRequest] because it is not cache-safe
+
+2014-08-17 16:30:17,109 - [DEBUG] - from org.springframework.beans.CachedIntrospectionResults in play-akka.actor.default-dispatcher-124 
+Not strongly caching class [forms.LoginRequest] because it is not cache-safe
+
+2014-08-17 16:38:00,093 - [DEBUG] - from play in play-internal-execution-context-14 
+Plugin [play.api.db.BoneCPPlugin] is disabled
+
+2014-08-17 16:38:00,093 - [DEBUG] - from play in play-internal-execution-context-14 
+Plugin [play.api.db.evolutions.EvolutionsPlugin] is disabled
+
+2014-08-17 16:38:00,122 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-14 
+Configuring ehcache from URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 16:38:00,122 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-14 
+Configuring ehcache from InputStream
+
+2014-08-17 16:38:00,124 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-14 
+Ignoring ehcache attribute xmlns:xsi
+
+2014-08-17 16:38:00,124 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-14 
+Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+
+2014-08-17 16:38:00,125 - [DEBUG] - from net.sf.ehcache.CacheManager in play-internal-execution-context-14 
+Creating new CacheManager with config URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 16:38:00,126 - [DEBUG] - from net.sf.ehcache.util.PropertyUtil in play-internal-execution-context-14 
+propertiesString is null.
+
+2014-08-17 16:38:00,126 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-14 
+No CacheManagerEventListenerFactory class specified. Skipping...
+
+2014-08-17 16:38:00,126 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-14 
+No BootstrapCacheLoaderFactory class specified. Skipping...
+
+2014-08-17 16:38:00,126 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-14 
+CacheWriter factory not configured. Skipping...
+
+2014-08-17 16:38:00,126 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-14 
+No CacheExceptionHandlerFactory class specified. Skipping...
+
+2014-08-17 16:38:00,127 - [DEBUG] - from net.sf.ehcache.store.MemoryStore in play-internal-execution-context-14 
+Initialized net.sf.ehcache.store.NotifyingMemoryStore for play
+
+2014-08-17 16:38:00,127 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-14 
+Initialised cache: play
+
+2014-08-17 16:38:00,127 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-14 
+CacheDecoratorFactory not configured for defaultCache. Skipping for 'play'.
+
+2014-08-17 16:38:00,127 - [DEBUG] - from application in play-internal-execution-context-14 
+** onStart **
+
+2014-08-17 16:38:00,737 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-14 
+ name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=2
+
+2014-08-17 16:38:00,738 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-14 
+ObjectName = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=2
+
+2014-08-17 16:38:00,738 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-14 
+name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=2
+
+2014-08-17 16:38:00,738 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-14 
+Send create notification of object com.mongodb:host=localhost/127.0.0.1,instance=2,port=27017,type=ConnectionPool
+
+2014-08-17 16:38:00,739 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-14 
+JMX.mbean.registered com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=2
+
+2014-08-17 16:38:00,744 - [DEBUG] - from application in play-internal-execution-context-14 
+** Morphia datastore: boomer
+
+2014-08-17 16:38:00,744 - [INFO] - from play in play-internal-execution-context-14 
+Application started (Dev)
+
+2014-08-17 16:40:03,790 - [DEBUG] - from org.springframework.beans.CachedIntrospectionResults in play-akka.actor.default-dispatcher-150 
+Not strongly caching class [forms.LoginRequest] because it is not cache-safe
+
+2014-08-17 16:40:03,798 - [DEBUG] - from com.google.code.morphia.mapping.MappedClass in play-akka.actor.default-dispatcher-150 
+MappedClass done: MappedClass - kind:User for model.User fields:[_id ( type:long, single:true); {interface com.google.code.morphia.annotations.Id=@com.google.code.morphia.annotations.Id()}, name ( type:String, single:true); {}, email ( type:String, single:true); {}, password ( type:String, single:true); {}, status ( type:String, single:true); {}]
+
+2014-08-17 16:46:36,278 - [DEBUG] - from org.springframework.beans.CachedIntrospectionResults in play-akka.actor.default-dispatcher-193 
+Not strongly caching class [forms.LoginRequest] because it is not cache-safe
+
+2014-08-17 17:08:07,190 - [DEBUG] - from org.springframework.beans.CachedIntrospectionResults in play-akka.actor.default-dispatcher-244 
+Not strongly caching class [forms.LoginRequest] because it is not cache-safe
+
+2014-08-17 17:15:12,293 - [DEBUG] - from org.springframework.beans.CachedIntrospectionResults in play-akka.actor.default-dispatcher-280 
+Not strongly caching class [forms.LoginRequest] because it is not cache-safe
+
+2014-08-17 17:16:15,371 - [DEBUG] - from play in play-internal-execution-context-31 
+Plugin [play.api.db.BoneCPPlugin] is disabled
+
+2014-08-17 17:16:15,372 - [DEBUG] - from play in play-internal-execution-context-31 
+Plugin [play.api.db.evolutions.EvolutionsPlugin] is disabled
+
+2014-08-17 17:16:15,394 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-31 
+Configuring ehcache from URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 17:16:15,395 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-31 
+Configuring ehcache from InputStream
+
+2014-08-17 17:16:15,396 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-31 
+Ignoring ehcache attribute xmlns:xsi
+
+2014-08-17 17:16:15,396 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-31 
+Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+
+2014-08-17 17:16:15,398 - [DEBUG] - from net.sf.ehcache.CacheManager in play-internal-execution-context-31 
+Creating new CacheManager with config URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 17:16:15,398 - [DEBUG] - from net.sf.ehcache.util.PropertyUtil in play-internal-execution-context-31 
+propertiesString is null.
+
+2014-08-17 17:16:15,399 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-31 
+No CacheManagerEventListenerFactory class specified. Skipping...
+
+2014-08-17 17:16:15,399 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-31 
+No BootstrapCacheLoaderFactory class specified. Skipping...
+
+2014-08-17 17:16:15,399 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-31 
+CacheWriter factory not configured. Skipping...
+
+2014-08-17 17:16:15,399 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-31 
+No CacheExceptionHandlerFactory class specified. Skipping...
+
+2014-08-17 17:16:15,400 - [DEBUG] - from net.sf.ehcache.store.MemoryStore in play-internal-execution-context-31 
+Initialized net.sf.ehcache.store.NotifyingMemoryStore for play
+
+2014-08-17 17:16:15,400 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-31 
+Initialised cache: play
+
+2014-08-17 17:16:15,400 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-31 
+CacheDecoratorFactory not configured for defaultCache. Skipping for 'play'.
+
+2014-08-17 17:16:15,400 - [DEBUG] - from application in play-internal-execution-context-31 
+** onStart **
+
+2014-08-17 17:16:16,006 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-31 
+ name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=3
+
+2014-08-17 17:16:16,007 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-31 
+ObjectName = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=3
+
+2014-08-17 17:16:16,007 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-31 
+name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=3
+
+2014-08-17 17:16:16,007 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-31 
+Send create notification of object com.mongodb:host=localhost/127.0.0.1,instance=3,port=27017,type=ConnectionPool
+
+2014-08-17 17:16:16,007 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-31 
+JMX.mbean.registered com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=3
+
+2014-08-17 17:16:16,012 - [DEBUG] - from application in play-internal-execution-context-31 
+** Morphia datastore: boomer
+
+2014-08-17 17:16:16,012 - [INFO] - from play in play-internal-execution-context-31 
+Application started (Dev)
+
+2014-08-17 17:16:27,373 - [DEBUG] - from org.springframework.beans.CachedIntrospectionResults in play-akka.actor.default-dispatcher-276 
+Not strongly caching class [forms.LoginRequest] because it is not cache-safe
+
+2014-08-17 17:16:27,380 - [DEBUG] - from com.google.code.morphia.mapping.MappedClass in play-akka.actor.default-dispatcher-276 
+MappedClass done: MappedClass - kind:User for model.User fields:[_id ( type:long, single:true); {interface com.google.code.morphia.annotations.Id=@com.google.code.morphia.annotations.Id()}, name ( type:String, single:true); {}, email ( type:String, single:true); {}, password ( type:String, single:true); {}, status ( type:String, single:true); {}]
+
+2014-08-17 17:40:01,170 - [DEBUG] - from play in play-internal-execution-context-35 
+Plugin [play.api.db.BoneCPPlugin] is disabled
+
+2014-08-17 17:40:01,170 - [DEBUG] - from play in play-internal-execution-context-35 
+Plugin [play.api.db.evolutions.EvolutionsPlugin] is disabled
+
+2014-08-17 17:40:01,194 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-35 
+Configuring ehcache from URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 17:40:01,194 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-35 
+Configuring ehcache from InputStream
+
+2014-08-17 17:40:01,196 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-35 
+Ignoring ehcache attribute xmlns:xsi
+
+2014-08-17 17:40:01,196 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-35 
+Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+
+2014-08-17 17:40:01,198 - [DEBUG] - from net.sf.ehcache.CacheManager in play-internal-execution-context-35 
+Creating new CacheManager with config URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 17:40:01,198 - [DEBUG] - from net.sf.ehcache.util.PropertyUtil in play-internal-execution-context-35 
+propertiesString is null.
+
+2014-08-17 17:40:01,198 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-35 
+No CacheManagerEventListenerFactory class specified. Skipping...
+
+2014-08-17 17:40:01,198 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-35 
+No BootstrapCacheLoaderFactory class specified. Skipping...
+
+2014-08-17 17:40:01,199 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-35 
+CacheWriter factory not configured. Skipping...
+
+2014-08-17 17:40:01,199 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-35 
+No CacheExceptionHandlerFactory class specified. Skipping...
+
+2014-08-17 17:40:01,200 - [DEBUG] - from net.sf.ehcache.store.MemoryStore in play-internal-execution-context-35 
+Initialized net.sf.ehcache.store.NotifyingMemoryStore for play
+
+2014-08-17 17:40:01,200 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-35 
+Initialised cache: play
+
+2014-08-17 17:40:01,200 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-35 
+CacheDecoratorFactory not configured for defaultCache. Skipping for 'play'.
+
+2014-08-17 17:40:01,200 - [DEBUG] - from application in play-internal-execution-context-35 
+** onStart **
+
+2014-08-17 17:40:01,792 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-35 
+ name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=4
+
+2014-08-17 17:40:01,792 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-35 
+ObjectName = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=4
+
+2014-08-17 17:40:01,792 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-35 
+name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=4
+
+2014-08-17 17:40:01,792 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-35 
+Send create notification of object com.mongodb:host=localhost/127.0.0.1,instance=4,port=27017,type=ConnectionPool
+
+2014-08-17 17:40:01,792 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-35 
+JMX.mbean.registered com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=4
+
+2014-08-17 17:40:01,797 - [DEBUG] - from application in play-internal-execution-context-35 
+** Morphia datastore: boomer
+
+2014-08-17 17:40:01,797 - [INFO] - from play in play-internal-execution-context-35 
+Application started (Dev)
+
+2014-08-17 18:43:12,203 - [DEBUG] - from play in play-internal-execution-context-35 
+Plugin [play.api.db.BoneCPPlugin] is disabled
+
+2014-08-17 18:43:12,204 - [DEBUG] - from play in play-internal-execution-context-35 
+Plugin [play.api.db.evolutions.EvolutionsPlugin] is disabled
+
+2014-08-17 18:43:12,226 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-35 
+Configuring ehcache from URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 18:43:12,226 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-35 
+Configuring ehcache from InputStream
+
+2014-08-17 18:43:12,227 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-35 
+Ignoring ehcache attribute xmlns:xsi
+
+2014-08-17 18:43:12,227 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-35 
+Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+
+2014-08-17 18:43:12,229 - [DEBUG] - from net.sf.ehcache.CacheManager in play-internal-execution-context-35 
+Creating new CacheManager with config URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 18:43:12,229 - [DEBUG] - from net.sf.ehcache.util.PropertyUtil in play-internal-execution-context-35 
+propertiesString is null.
+
+2014-08-17 18:43:12,229 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-35 
+No CacheManagerEventListenerFactory class specified. Skipping...
+
+2014-08-17 18:43:12,230 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-35 
+No BootstrapCacheLoaderFactory class specified. Skipping...
+
+2014-08-17 18:43:12,230 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-35 
+CacheWriter factory not configured. Skipping...
+
+2014-08-17 18:43:12,230 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-35 
+No CacheExceptionHandlerFactory class specified. Skipping...
+
+2014-08-17 18:43:12,231 - [DEBUG] - from net.sf.ehcache.store.MemoryStore in play-internal-execution-context-35 
+Initialized net.sf.ehcache.store.NotifyingMemoryStore for play
+
+2014-08-17 18:43:12,232 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-35 
+Initialised cache: play
+
+2014-08-17 18:43:12,232 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-35 
+CacheDecoratorFactory not configured for defaultCache. Skipping for 'play'.
+
+2014-08-17 18:43:12,232 - [DEBUG] - from application in play-internal-execution-context-35 
+** onStart **
+
+2014-08-17 18:43:12,826 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-35 
+ name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=5
+
+2014-08-17 18:43:12,826 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-35 
+ObjectName = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=5
+
+2014-08-17 18:43:12,828 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-35 
+name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=5
+
+2014-08-17 18:43:12,828 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-35 
+Send create notification of object com.mongodb:host=localhost/127.0.0.1,instance=5,port=27017,type=ConnectionPool
+
+2014-08-17 18:43:12,828 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-35 
+JMX.mbean.registered com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=5
+
+2014-08-17 18:43:12,833 - [DEBUG] - from application in play-internal-execution-context-35 
+** Morphia datastore: boomer
+
+2014-08-17 18:43:12,833 - [INFO] - from play in play-internal-execution-context-35 
+Application started (Dev)
+
+2014-08-17 18:43:34,342 - [DEBUG] - from org.springframework.beans.CachedIntrospectionResults in play-akka.actor.default-dispatcher-390 
+Not strongly caching class [forms.LoginRequest] because it is not cache-safe
+
+2014-08-17 18:43:34,351 - [DEBUG] - from com.google.code.morphia.mapping.MappedClass in play-akka.actor.default-dispatcher-390 
+MappedClass done: MappedClass - kind:User for model.User fields:[_id ( type:long, single:true); {interface com.google.code.morphia.annotations.Id=@com.google.code.morphia.annotations.Id()}, name ( type:String, single:true); {}, email ( type:String, single:true); {}, password ( type:String, single:true); {}, status ( type:String, single:true); {}]
+
+2014-08-17 19:14:00,512 - [DEBUG] - from play in play-internal-execution-context-44 
+Plugin [play.api.db.BoneCPPlugin] is disabled
+
+2014-08-17 19:14:00,512 - [DEBUG] - from play in play-internal-execution-context-44 
+Plugin [play.api.db.evolutions.EvolutionsPlugin] is disabled
+
+2014-08-17 19:14:00,532 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-44 
+Configuring ehcache from URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 19:14:00,533 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-44 
+Configuring ehcache from InputStream
+
+2014-08-17 19:14:00,534 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-44 
+Ignoring ehcache attribute xmlns:xsi
+
+2014-08-17 19:14:00,534 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-44 
+Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+
+2014-08-17 19:14:00,535 - [DEBUG] - from net.sf.ehcache.CacheManager in play-internal-execution-context-44 
+Creating new CacheManager with config URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 19:14:00,535 - [DEBUG] - from net.sf.ehcache.util.PropertyUtil in play-internal-execution-context-44 
+propertiesString is null.
+
+2014-08-17 19:14:00,536 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-44 
+No CacheManagerEventListenerFactory class specified. Skipping...
+
+2014-08-17 19:14:00,536 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-44 
+No BootstrapCacheLoaderFactory class specified. Skipping...
+
+2014-08-17 19:14:00,536 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-44 
+CacheWriter factory not configured. Skipping...
+
+2014-08-17 19:14:00,536 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-44 
+No CacheExceptionHandlerFactory class specified. Skipping...
+
+2014-08-17 19:14:00,537 - [DEBUG] - from net.sf.ehcache.store.MemoryStore in play-internal-execution-context-44 
+Initialized net.sf.ehcache.store.NotifyingMemoryStore for play
+
+2014-08-17 19:14:00,537 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-44 
+Initialised cache: play
+
+2014-08-17 19:14:00,537 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-44 
+CacheDecoratorFactory not configured for defaultCache. Skipping for 'play'.
+
+2014-08-17 19:14:00,537 - [DEBUG] - from application in play-internal-execution-context-44 
+** onStart **
+
+2014-08-17 19:14:01,129 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-44 
+ name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=6
+
+2014-08-17 19:14:01,130 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-44 
+ObjectName = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=6
+
+2014-08-17 19:14:01,130 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-44 
+name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=6
+
+2014-08-17 19:14:01,130 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-44 
+Send create notification of object com.mongodb:host=localhost/127.0.0.1,instance=6,port=27017,type=ConnectionPool
+
+2014-08-17 19:14:01,130 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-44 
+JMX.mbean.registered com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=6
+
+2014-08-17 19:14:01,135 - [DEBUG] - from application in play-internal-execution-context-44 
+** Morphia datastore: boomer
+
+2014-08-17 19:14:01,135 - [INFO] - from play in play-internal-execution-context-44 
+Application started (Dev)
+
+2014-08-17 19:14:01,552 - [DEBUG] - from com.google.code.morphia.mapping.MappedClass in play-akka.actor.default-dispatcher-437 
+MappedClass done: MappedClass - kind:User for model.User fields:[_id ( type:long, single:true); {interface com.google.code.morphia.annotations.Id=@com.google.code.morphia.annotations.Id()}, name ( type:String, single:true); {}, email ( type:String, single:true); {}, password ( type:String, single:true); {}, status ( type:String, single:true); {}]
+
+2014-08-17 19:22:44,736 - [DEBUG] - from play in play-internal-execution-context-49 
+Plugin [play.api.db.BoneCPPlugin] is disabled
+
+2014-08-17 19:22:44,736 - [DEBUG] - from play in play-internal-execution-context-49 
+Plugin [play.api.db.evolutions.EvolutionsPlugin] is disabled
+
+2014-08-17 19:22:44,756 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-49 
+Configuring ehcache from URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 19:22:44,756 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-49 
+Configuring ehcache from InputStream
+
+2014-08-17 19:22:44,757 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-49 
+Ignoring ehcache attribute xmlns:xsi
+
+2014-08-17 19:22:44,758 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-49 
+Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+
+2014-08-17 19:22:44,758 - [DEBUG] - from net.sf.ehcache.CacheManager in play-internal-execution-context-49 
+Creating new CacheManager with config URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 19:22:44,759 - [DEBUG] - from net.sf.ehcache.util.PropertyUtil in play-internal-execution-context-49 
+propertiesString is null.
+
+2014-08-17 19:22:44,759 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-49 
+No CacheManagerEventListenerFactory class specified. Skipping...
+
+2014-08-17 19:22:44,759 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-49 
+No BootstrapCacheLoaderFactory class specified. Skipping...
+
+2014-08-17 19:22:44,759 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-49 
+CacheWriter factory not configured. Skipping...
+
+2014-08-17 19:22:44,759 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-49 
+No CacheExceptionHandlerFactory class specified. Skipping...
+
+2014-08-17 19:22:44,760 - [DEBUG] - from net.sf.ehcache.store.MemoryStore in play-internal-execution-context-49 
+Initialized net.sf.ehcache.store.NotifyingMemoryStore for play
+
+2014-08-17 19:22:44,760 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-49 
+Initialised cache: play
+
+2014-08-17 19:22:44,760 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-49 
+CacheDecoratorFactory not configured for defaultCache. Skipping for 'play'.
+
+2014-08-17 19:22:44,760 - [DEBUG] - from application in play-internal-execution-context-49 
+** onStart **
+
+2014-08-17 19:22:45,352 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-49 
+ name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=7
+
+2014-08-17 19:22:45,352 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-49 
+ObjectName = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=7
+
+2014-08-17 19:22:45,352 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-49 
+name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=7
+
+2014-08-17 19:22:45,352 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-49 
+Send create notification of object com.mongodb:host=localhost/127.0.0.1,instance=7,port=27017,type=ConnectionPool
+
+2014-08-17 19:22:45,353 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-49 
+JMX.mbean.registered com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=7
+
+2014-08-17 19:22:45,357 - [DEBUG] - from application in play-internal-execution-context-49 
+** Morphia datastore: boomer
+
+2014-08-17 19:22:45,357 - [INFO] - from play in play-internal-execution-context-49 
+Application started (Dev)
+
+2014-08-17 19:22:46,185 - [DEBUG] - from com.google.code.morphia.mapping.MappedClass in play-akka.actor.default-dispatcher-489 
+MappedClass done: MappedClass - kind:User for model.User fields:[_id ( type:long, single:true); {interface com.google.code.morphia.annotations.Id=@com.google.code.morphia.annotations.Id()}, name ( type:String, single:true); {}, email ( type:String, single:true); {}, password ( type:String, single:true); {}, status ( type:String, single:true); {}]
+
+2014-08-17 19:47:56,742 - [ERROR] - from application in New I/O worker #9 
+
+
+! @6j8lm0an6 - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$CompilationException: Compilation error[error: cannot find symbol]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.10.4.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14.apply(PlayReloader.scala:304) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14.apply(PlayReloader.scala:298) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.10.4.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:298) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:296) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.10.4.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:296) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10.jar:2.2.3]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[play_2.10.jar:2.2.3]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.10.4.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.10.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.10.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.10.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.10.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.10.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.10.4.jar:na]
+
+2014-08-17 19:48:18,794 - [DEBUG] - from play in play-internal-execution-context-51 
+Plugin [play.api.db.BoneCPPlugin] is disabled
+
+2014-08-17 19:48:18,794 - [DEBUG] - from play in play-internal-execution-context-51 
+Plugin [play.api.db.evolutions.EvolutionsPlugin] is disabled
+
+2014-08-17 19:48:18,815 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-51 
+Configuring ehcache from URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 19:48:18,815 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-51 
+Configuring ehcache from InputStream
+
+2014-08-17 19:48:18,817 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-51 
+Ignoring ehcache attribute xmlns:xsi
+
+2014-08-17 19:48:18,817 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-51 
+Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+
+2014-08-17 19:48:18,818 - [DEBUG] - from net.sf.ehcache.CacheManager in play-internal-execution-context-51 
+Creating new CacheManager with config URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 19:48:18,819 - [DEBUG] - from net.sf.ehcache.util.PropertyUtil in play-internal-execution-context-51 
+propertiesString is null.
+
+2014-08-17 19:48:18,819 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-51 
+No CacheManagerEventListenerFactory class specified. Skipping...
+
+2014-08-17 19:48:18,819 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-51 
+No BootstrapCacheLoaderFactory class specified. Skipping...
+
+2014-08-17 19:48:18,819 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-51 
+CacheWriter factory not configured. Skipping...
+
+2014-08-17 19:48:18,819 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-51 
+No CacheExceptionHandlerFactory class specified. Skipping...
+
+2014-08-17 19:48:18,820 - [DEBUG] - from net.sf.ehcache.store.MemoryStore in play-internal-execution-context-51 
+Initialized net.sf.ehcache.store.NotifyingMemoryStore for play
+
+2014-08-17 19:48:18,821 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-51 
+Initialised cache: play
+
+2014-08-17 19:48:18,821 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-51 
+CacheDecoratorFactory not configured for defaultCache. Skipping for 'play'.
+
+2014-08-17 19:48:18,821 - [DEBUG] - from application in play-internal-execution-context-51 
+** onStart **
+
+2014-08-17 19:48:19,415 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-51 
+ name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=8
+
+2014-08-17 19:48:19,416 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-51 
+ObjectName = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=8
+
+2014-08-17 19:48:19,416 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-51 
+name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=8
+
+2014-08-17 19:48:19,416 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-51 
+Send create notification of object com.mongodb:host=localhost/127.0.0.1,instance=8,port=27017,type=ConnectionPool
+
+2014-08-17 19:48:19,416 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-51 
+JMX.mbean.registered com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=8
+
+2014-08-17 19:48:19,419 - [DEBUG] - from application in play-internal-execution-context-51 
+** Morphia datastore: boomer
+
+2014-08-17 19:48:19,420 - [INFO] - from play in play-internal-execution-context-51 
+Application started (Dev)
+
+2014-08-17 19:48:20,425 - [DEBUG] - from com.google.code.morphia.mapping.MappedClass in play-akka.actor.default-dispatcher-521 
+MappedClass done: MappedClass - kind:User for model.User fields:[_id ( type:long, single:true); {interface com.google.code.morphia.annotations.Id=@com.google.code.morphia.annotations.Id()}, name ( type:String, single:true); {}, email ( type:String, single:true); {}, password ( type:String, single:true); {}, status ( type:String, single:true); {}]
+
+2014-08-17 19:48:39,588 - [DEBUG] - from play in play-internal-execution-context-51 
+Plugin [play.api.db.BoneCPPlugin] is disabled
+
+2014-08-17 19:48:39,589 - [DEBUG] - from play in play-internal-execution-context-51 
+Plugin [play.api.db.evolutions.EvolutionsPlugin] is disabled
+
+2014-08-17 19:48:39,609 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-51 
+Configuring ehcache from URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 19:48:39,609 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-51 
+Configuring ehcache from InputStream
+
+2014-08-17 19:48:39,610 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-51 
+Ignoring ehcache attribute xmlns:xsi
+
+2014-08-17 19:48:39,611 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-51 
+Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+
+2014-08-17 19:48:39,611 - [DEBUG] - from net.sf.ehcache.CacheManager in play-internal-execution-context-51 
+Creating new CacheManager with config URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 19:48:39,612 - [DEBUG] - from net.sf.ehcache.util.PropertyUtil in play-internal-execution-context-51 
+propertiesString is null.
+
+2014-08-17 19:48:39,612 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-51 
+No CacheManagerEventListenerFactory class specified. Skipping...
+
+2014-08-17 19:48:39,612 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-51 
+No BootstrapCacheLoaderFactory class specified. Skipping...
+
+2014-08-17 19:48:39,612 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-51 
+CacheWriter factory not configured. Skipping...
+
+2014-08-17 19:48:39,612 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-51 
+No CacheExceptionHandlerFactory class specified. Skipping...
+
+2014-08-17 19:48:39,614 - [DEBUG] - from net.sf.ehcache.store.MemoryStore in play-internal-execution-context-51 
+Initialized net.sf.ehcache.store.NotifyingMemoryStore for play
+
+2014-08-17 19:48:39,614 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-51 
+Initialised cache: play
+
+2014-08-17 19:48:39,614 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-51 
+CacheDecoratorFactory not configured for defaultCache. Skipping for 'play'.
+
+2014-08-17 19:48:39,614 - [DEBUG] - from application in play-internal-execution-context-51 
+** onStart **
+
+2014-08-17 19:48:39,614 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-51 
+ name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=9
+
+2014-08-17 19:48:39,614 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-51 
+ObjectName = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=9
+
+2014-08-17 19:48:39,614 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-51 
+name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=9
+
+2014-08-17 19:48:39,614 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-51 
+Send create notification of object com.mongodb:host=localhost/127.0.0.1,instance=9,port=27017,type=ConnectionPool
+
+2014-08-17 19:48:39,615 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-51 
+JMX.mbean.registered com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=9
+
+2014-08-17 19:48:39,617 - [DEBUG] - from application in play-internal-execution-context-51 
+** Morphia datastore: boomer
+
+2014-08-17 19:48:39,617 - [INFO] - from play in play-internal-execution-context-51 
+Application started (Dev)
+
+2014-08-17 19:48:40,202 - [DEBUG] - from com.google.code.morphia.mapping.MappedClass in play-akka.actor.default-dispatcher-526 
+MappedClass done: MappedClass - kind:User for model.User fields:[_id ( type:long, single:true); {interface com.google.code.morphia.annotations.Id=@com.google.code.morphia.annotations.Id()}, name ( type:String, single:true); {}, email ( type:String, single:true); {}, password ( type:String, single:true); {}, status ( type:String, single:true); {}]
+
+2014-08-17 19:50:40,920 - [DEBUG] - from play in play-internal-execution-context-56 
+Plugin [play.api.db.BoneCPPlugin] is disabled
+
+2014-08-17 19:50:40,921 - [DEBUG] - from play in play-internal-execution-context-56 
+Plugin [play.api.db.evolutions.EvolutionsPlugin] is disabled
+
+2014-08-17 19:50:40,938 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-56 
+Configuring ehcache from URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 19:50:40,938 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-56 
+Configuring ehcache from InputStream
+
+2014-08-17 19:50:40,940 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-56 
+Ignoring ehcache attribute xmlns:xsi
+
+2014-08-17 19:50:40,940 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-56 
+Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+
+2014-08-17 19:50:40,941 - [DEBUG] - from net.sf.ehcache.CacheManager in play-internal-execution-context-56 
+Creating new CacheManager with config URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 19:50:40,941 - [DEBUG] - from net.sf.ehcache.util.PropertyUtil in play-internal-execution-context-56 
+propertiesString is null.
+
+2014-08-17 19:50:40,941 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-56 
+No CacheManagerEventListenerFactory class specified. Skipping...
+
+2014-08-17 19:50:40,941 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-56 
+No BootstrapCacheLoaderFactory class specified. Skipping...
+
+2014-08-17 19:50:40,941 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-56 
+CacheWriter factory not configured. Skipping...
+
+2014-08-17 19:50:40,941 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-56 
+No CacheExceptionHandlerFactory class specified. Skipping...
+
+2014-08-17 19:50:40,942 - [DEBUG] - from net.sf.ehcache.store.MemoryStore in play-internal-execution-context-56 
+Initialized net.sf.ehcache.store.NotifyingMemoryStore for play
+
+2014-08-17 19:50:40,943 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-56 
+Initialised cache: play
+
+2014-08-17 19:50:40,943 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-56 
+CacheDecoratorFactory not configured for defaultCache. Skipping for 'play'.
+
+2014-08-17 19:50:40,943 - [DEBUG] - from application in play-internal-execution-context-56 
+** onStart **
+
+2014-08-17 19:50:41,535 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-56 
+ name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=10
+
+2014-08-17 19:50:41,536 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-56 
+ObjectName = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=10
+
+2014-08-17 19:50:41,536 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-56 
+name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=10
+
+2014-08-17 19:50:41,536 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-56 
+Send create notification of object com.mongodb:host=localhost/127.0.0.1,instance=10,port=27017,type=ConnectionPool
+
+2014-08-17 19:50:41,536 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-56 
+JMX.mbean.registered com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=10
+
+2014-08-17 19:50:41,541 - [DEBUG] - from application in play-internal-execution-context-56 
+** Morphia datastore: boomer
+
+2014-08-17 19:50:41,541 - [INFO] - from play in play-internal-execution-context-56 
+Application started (Dev)
+
+2014-08-17 19:50:41,963 - [DEBUG] - from com.google.code.morphia.mapping.MappedClass in play-akka.actor.default-dispatcher-533 
+MappedClass done: MappedClass - kind:User for model.User fields:[_id ( type:long, single:true); {interface com.google.code.morphia.annotations.Id=@com.google.code.morphia.annotations.Id()}, name ( type:String, single:true); {}, email ( type:String, single:true); {}, password ( type:String, single:true); {}, status ( type:String, single:true); {}]
+
+2014-08-17 19:51:27,749 - [DEBUG] - from org.springframework.beans.CachedIntrospectionResults in play-akka.actor.default-dispatcher-544 
+Not strongly caching class [forms.AddItemRequest] because it is not cache-safe
+
+2014-08-17 19:52:20,426 - [DEBUG] - from org.springframework.beans.CachedIntrospectionResults in play-akka.actor.default-dispatcher-542 
+Not strongly caching class [forms.AddItemRequest] because it is not cache-safe
+
+2014-08-17 19:53:51,162 - [DEBUG] - from play in play-internal-execution-context-57 
+Plugin [play.api.db.BoneCPPlugin] is disabled
+
+2014-08-17 19:53:51,162 - [DEBUG] - from play in play-internal-execution-context-57 
+Plugin [play.api.db.evolutions.EvolutionsPlugin] is disabled
+
+2014-08-17 19:53:51,170 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-57 
+Configuring ehcache from URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 19:53:51,171 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-57 
+Configuring ehcache from InputStream
+
+2014-08-17 19:53:51,172 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-57 
+Ignoring ehcache attribute xmlns:xsi
+
+2014-08-17 19:53:51,172 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-57 
+Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+
+2014-08-17 19:53:51,173 - [DEBUG] - from net.sf.ehcache.CacheManager in play-internal-execution-context-57 
+Creating new CacheManager with config URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 19:53:51,173 - [DEBUG] - from net.sf.ehcache.util.PropertyUtil in play-internal-execution-context-57 
+propertiesString is null.
+
+2014-08-17 19:53:51,173 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-57 
+No CacheManagerEventListenerFactory class specified. Skipping...
+
+2014-08-17 19:53:51,174 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-57 
+No BootstrapCacheLoaderFactory class specified. Skipping...
+
+2014-08-17 19:53:51,174 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-57 
+CacheWriter factory not configured. Skipping...
+
+2014-08-17 19:53:51,174 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-57 
+No CacheExceptionHandlerFactory class specified. Skipping...
+
+2014-08-17 19:53:51,175 - [DEBUG] - from net.sf.ehcache.store.MemoryStore in play-internal-execution-context-57 
+Initialized net.sf.ehcache.store.NotifyingMemoryStore for play
+
+2014-08-17 19:53:51,175 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-57 
+Initialised cache: play
+
+2014-08-17 19:53:51,175 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-57 
+CacheDecoratorFactory not configured for defaultCache. Skipping for 'play'.
+
+2014-08-17 19:53:51,175 - [DEBUG] - from application in play-internal-execution-context-57 
+** onStart **
+
+2014-08-17 19:53:51,768 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-57 
+ name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=11
+
+2014-08-17 19:53:51,769 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-57 
+ObjectName = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=11
+
+2014-08-17 19:53:51,769 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-57 
+name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=11
+
+2014-08-17 19:53:51,769 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-57 
+Send create notification of object com.mongodb:host=localhost/127.0.0.1,instance=11,port=27017,type=ConnectionPool
+
+2014-08-17 19:53:51,769 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-57 
+JMX.mbean.registered com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=11
+
+2014-08-17 19:53:51,773 - [DEBUG] - from application in play-internal-execution-context-57 
+** Morphia datastore: boomer
+
+2014-08-17 19:53:51,773 - [INFO] - from play in play-internal-execution-context-57 
+Application started (Dev)
+
+2014-08-17 19:53:52,204 - [DEBUG] - from com.google.code.morphia.mapping.MappedClass in play-akka.actor.default-dispatcher-549 
+MappedClass done: MappedClass - kind:User for model.User fields:[_id ( type:long, single:true); {interface com.google.code.morphia.annotations.Id=@com.google.code.morphia.annotations.Id()}, name ( type:String, single:true); {}, email ( type:String, single:true); {}, password ( type:String, single:true); {}, status ( type:String, single:true); {}]
+
+2014-08-17 19:53:55,297 - [DEBUG] - from org.springframework.beans.CachedIntrospectionResults in play-akka.actor.default-dispatcher-549 
+Not strongly caching class [forms.AddItemRequest] because it is not cache-safe
+
+2014-08-17 19:54:36,181 - [DEBUG] - from org.springframework.beans.CachedIntrospectionResults in play-akka.actor.default-dispatcher-557 
+Not strongly caching class [forms.AddItemRequest] because it is not cache-safe
+
+2014-08-17 19:55:34,077 - [DEBUG] - from org.springframework.beans.CachedIntrospectionResults in play-akka.actor.default-dispatcher-564 
+Not strongly caching class [forms.LoginRequest] because it is not cache-safe
+
+2014-08-17 20:03:59,428 - [DEBUG] - from play in play-internal-execution-context-65 
+Plugin [play.api.db.BoneCPPlugin] is disabled
+
+2014-08-17 20:03:59,428 - [DEBUG] - from play in play-internal-execution-context-65 
+Plugin [play.api.db.evolutions.EvolutionsPlugin] is disabled
+
+2014-08-17 20:03:59,436 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-65 
+Configuring ehcache from URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 20:03:59,436 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-65 
+Configuring ehcache from InputStream
+
+2014-08-17 20:03:59,437 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-65 
+Ignoring ehcache attribute xmlns:xsi
+
+2014-08-17 20:03:59,438 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-65 
+Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+
+2014-08-17 20:03:59,438 - [DEBUG] - from net.sf.ehcache.CacheManager in play-internal-execution-context-65 
+Creating new CacheManager with config URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 20:03:59,439 - [DEBUG] - from net.sf.ehcache.util.PropertyUtil in play-internal-execution-context-65 
+propertiesString is null.
+
+2014-08-17 20:03:59,439 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-65 
+No CacheManagerEventListenerFactory class specified. Skipping...
+
+2014-08-17 20:03:59,439 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-65 
+No BootstrapCacheLoaderFactory class specified. Skipping...
+
+2014-08-17 20:03:59,439 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-65 
+CacheWriter factory not configured. Skipping...
+
+2014-08-17 20:03:59,439 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-65 
+No CacheExceptionHandlerFactory class specified. Skipping...
+
+2014-08-17 20:03:59,440 - [DEBUG] - from net.sf.ehcache.store.MemoryStore in play-internal-execution-context-65 
+Initialized net.sf.ehcache.store.NotifyingMemoryStore for play
+
+2014-08-17 20:03:59,441 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-65 
+Initialised cache: play
+
+2014-08-17 20:03:59,441 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-65 
+CacheDecoratorFactory not configured for defaultCache. Skipping for 'play'.
+
+2014-08-17 20:03:59,441 - [DEBUG] - from application in play-internal-execution-context-65 
+** onStart **
+
+2014-08-17 20:04:00,037 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-65 
+ name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=12
+
+2014-08-17 20:04:00,038 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-65 
+ObjectName = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=12
+
+2014-08-17 20:04:00,038 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-65 
+name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=12
+
+2014-08-17 20:04:00,038 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-65 
+Send create notification of object com.mongodb:host=localhost/127.0.0.1,instance=12,port=27017,type=ConnectionPool
+
+2014-08-17 20:04:00,038 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-65 
+JMX.mbean.registered com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=12
+
+2014-08-17 20:04:00,043 - [DEBUG] - from application in play-internal-execution-context-65 
+** Morphia datastore: boomer
+
+2014-08-17 20:04:00,043 - [INFO] - from play in play-internal-execution-context-65 
+Application started (Dev)
+
+2014-08-17 20:04:01,372 - [DEBUG] - from com.google.code.morphia.mapping.MappedClass in play-akka.actor.default-dispatcher-580 
+MappedClass done: MappedClass - kind:User for model.User fields:[_id ( type:long, single:true); {interface com.google.code.morphia.annotations.Id=@com.google.code.morphia.annotations.Id()}, name ( type:String, single:true); {}, email ( type:String, single:true); {}, password ( type:String, single:true); {}, status ( type:String, single:true); {}]
+
+2014-08-17 20:04:05,592 - [DEBUG] - from org.springframework.beans.CachedIntrospectionResults in play-akka.actor.default-dispatcher-580 
+Not strongly caching class [forms.AddItemRequest] because it is not cache-safe
+
+2014-08-17 20:04:05,598 - [DEBUG] - from com.google.code.morphia.mapping.MappedClass in play-akka.actor.default-dispatcher-580 
+MappedClass done: MappedClass - kind:Item for model.Item fields:[_id ( type:long, single:true); {interface com.google.code.morphia.annotations.Id=@com.google.code.morphia.annotations.Id()}, name ( type:String, single:true); {}, description ( type:String, single:true); {}]
+
+2014-08-17 20:04:23,160 - [DEBUG] - from org.springframework.beans.CachedIntrospectionResults in play-akka.actor.default-dispatcher-576 
+Not strongly caching class [forms.AddItemRequest] because it is not cache-safe
+
+2014-08-17 20:06:02,814 - [DEBUG] - from play in play-internal-execution-context-67 
+Plugin [play.api.db.BoneCPPlugin] is disabled
+
+2014-08-17 20:06:02,814 - [DEBUG] - from play in play-internal-execution-context-67 
+Plugin [play.api.db.evolutions.EvolutionsPlugin] is disabled
+
+2014-08-17 20:06:02,822 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-67 
+Configuring ehcache from URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 20:06:02,822 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-67 
+Configuring ehcache from InputStream
+
+2014-08-17 20:06:02,824 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-67 
+Ignoring ehcache attribute xmlns:xsi
+
+2014-08-17 20:06:02,824 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-67 
+Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+
+2014-08-17 20:06:02,825 - [DEBUG] - from net.sf.ehcache.CacheManager in play-internal-execution-context-67 
+Creating new CacheManager with config URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 20:06:02,825 - [DEBUG] - from net.sf.ehcache.util.PropertyUtil in play-internal-execution-context-67 
+propertiesString is null.
+
+2014-08-17 20:06:02,826 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-67 
+No CacheManagerEventListenerFactory class specified. Skipping...
+
+2014-08-17 20:06:02,826 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-67 
+No BootstrapCacheLoaderFactory class specified. Skipping...
+
+2014-08-17 20:06:02,826 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-67 
+CacheWriter factory not configured. Skipping...
+
+2014-08-17 20:06:02,826 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-67 
+No CacheExceptionHandlerFactory class specified. Skipping...
+
+2014-08-17 20:06:02,827 - [DEBUG] - from net.sf.ehcache.store.MemoryStore in play-internal-execution-context-67 
+Initialized net.sf.ehcache.store.NotifyingMemoryStore for play
+
+2014-08-17 20:06:02,827 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-67 
+Initialised cache: play
+
+2014-08-17 20:06:02,827 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-67 
+CacheDecoratorFactory not configured for defaultCache. Skipping for 'play'.
+
+2014-08-17 20:06:02,827 - [DEBUG] - from application in play-internal-execution-context-67 
+** onStart **
+
+2014-08-17 20:06:03,421 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-67 
+ name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=13
+
+2014-08-17 20:06:03,421 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-67 
+ObjectName = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=13
+
+2014-08-17 20:06:03,421 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-67 
+name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=13
+
+2014-08-17 20:06:03,422 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-67 
+Send create notification of object com.mongodb:host=localhost/127.0.0.1,instance=13,port=27017,type=ConnectionPool
+
+2014-08-17 20:06:03,422 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-67 
+JMX.mbean.registered com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=13
+
+2014-08-17 20:06:03,426 - [DEBUG] - from application in play-internal-execution-context-67 
+** Morphia datastore: boomer
+
+2014-08-17 20:06:03,426 - [INFO] - from play in play-internal-execution-context-67 
+Application started (Dev)
+
+2014-08-17 20:06:03,444 - [DEBUG] - from org.springframework.beans.CachedIntrospectionResults in play-akka.actor.default-dispatcher-588 
+Not strongly caching class [forms.AddItemRequest] because it is not cache-safe
+
+2014-08-17 20:06:03,450 - [DEBUG] - from com.google.code.morphia.mapping.MappedClass in play-akka.actor.default-dispatcher-588 
+MappedClass done: MappedClass - kind:Item for model.Item fields:[_id ( type:long, single:true); {interface com.google.code.morphia.annotations.Id=@com.google.code.morphia.annotations.Id()}, name ( type:String, single:true); {}, description ( type:String, single:true); {}]
+
+2014-08-17 20:06:29,676 - [DEBUG] - from play in play-internal-execution-context-67 
+Plugin [play.api.db.BoneCPPlugin] is disabled
+
+2014-08-17 20:06:29,676 - [DEBUG] - from play in play-internal-execution-context-67 
+Plugin [play.api.db.evolutions.EvolutionsPlugin] is disabled
+
+2014-08-17 20:06:29,683 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-67 
+Configuring ehcache from URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 20:06:29,683 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-67 
+Configuring ehcache from InputStream
+
+2014-08-17 20:06:29,684 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-67 
+Ignoring ehcache attribute xmlns:xsi
+
+2014-08-17 20:06:29,684 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-67 
+Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+
+2014-08-17 20:06:29,685 - [DEBUG] - from net.sf.ehcache.CacheManager in play-internal-execution-context-67 
+Creating new CacheManager with config URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 20:06:29,686 - [DEBUG] - from net.sf.ehcache.util.PropertyUtil in play-internal-execution-context-67 
+propertiesString is null.
+
+2014-08-17 20:06:29,686 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-67 
+No CacheManagerEventListenerFactory class specified. Skipping...
+
+2014-08-17 20:06:29,686 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-67 
+No BootstrapCacheLoaderFactory class specified. Skipping...
+
+2014-08-17 20:06:29,686 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-67 
+CacheWriter factory not configured. Skipping...
+
+2014-08-17 20:06:29,686 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-67 
+No CacheExceptionHandlerFactory class specified. Skipping...
+
+2014-08-17 20:06:29,687 - [DEBUG] - from net.sf.ehcache.store.MemoryStore in play-internal-execution-context-67 
+Initialized net.sf.ehcache.store.NotifyingMemoryStore for play
+
+2014-08-17 20:06:29,688 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-67 
+Initialised cache: play
+
+2014-08-17 20:06:29,688 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-67 
+CacheDecoratorFactory not configured for defaultCache. Skipping for 'play'.
+
+2014-08-17 20:06:29,688 - [DEBUG] - from application in play-internal-execution-context-67 
+** onStart **
+
+2014-08-17 20:06:29,688 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-67 
+ name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=14
+
+2014-08-17 20:06:29,688 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-67 
+ObjectName = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=14
+
+2014-08-17 20:06:29,688 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-67 
+name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=14
+
+2014-08-17 20:06:29,688 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-67 
+Send create notification of object com.mongodb:host=localhost/127.0.0.1,instance=14,port=27017,type=ConnectionPool
+
+2014-08-17 20:06:29,688 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-67 
+JMX.mbean.registered com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=14
+
+2014-08-17 20:06:29,691 - [DEBUG] - from application in play-internal-execution-context-67 
+** Morphia datastore: boomer
+
+2014-08-17 20:06:29,691 - [INFO] - from play in play-internal-execution-context-67 
+Application started (Dev)
+
+2014-08-17 20:06:30,312 - [DEBUG] - from com.google.code.morphia.mapping.MappedClass in play-akka.actor.default-dispatcher-594 
+MappedClass done: MappedClass - kind:User for model.User fields:[_id ( type:long, single:true); {interface com.google.code.morphia.annotations.Id=@com.google.code.morphia.annotations.Id()}, name ( type:String, single:true); {}, email ( type:String, single:true); {}, password ( type:String, single:true); {}, status ( type:String, single:true); {}]
+
+2014-08-17 20:06:35,557 - [DEBUG] - from org.springframework.beans.CachedIntrospectionResults in play-akka.actor.default-dispatcher-594 
+Not strongly caching class [forms.AddItemRequest] because it is not cache-safe
+
+2014-08-17 20:06:35,562 - [DEBUG] - from com.google.code.morphia.mapping.MappedClass in play-akka.actor.default-dispatcher-594 
+MappedClass done: MappedClass - kind:Item for model.Item fields:[_id ( type:long, single:true); {interface com.google.code.morphia.annotations.Id=@com.google.code.morphia.annotations.Id()}, name ( type:String, single:true); {}, description ( type:String, single:true); {}]
+
+2014-08-17 20:25:38,267 - [ERROR] - from application in New I/O worker #13 
+
+
+! @6j8m0p291 - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$CompilationException: Compilation error[not found: type int]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.10.4.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14.apply(PlayReloader.scala:304) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14.apply(PlayReloader.scala:298) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.10.4.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:298) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:296) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.10.4.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:296) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10.jar:2.2.3]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[play_2.10.jar:2.2.3]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.10.4.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.10.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.10.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.10.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.10.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.10.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.10.4.jar:na]
+
+2014-08-17 20:26:05,625 - [DEBUG] - from play in play-internal-execution-context-67 
+Plugin [play.api.db.BoneCPPlugin] is disabled
+
+2014-08-17 20:26:05,625 - [DEBUG] - from play in play-internal-execution-context-67 
+Plugin [play.api.db.evolutions.EvolutionsPlugin] is disabled
+
+2014-08-17 20:26:05,632 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-67 
+Configuring ehcache from URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 20:26:05,633 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-67 
+Configuring ehcache from InputStream
+
+2014-08-17 20:26:05,634 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-67 
+Ignoring ehcache attribute xmlns:xsi
+
+2014-08-17 20:26:05,634 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-67 
+Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+
+2014-08-17 20:26:05,635 - [DEBUG] - from net.sf.ehcache.CacheManager in play-internal-execution-context-67 
+Creating new CacheManager with config URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 20:26:05,635 - [DEBUG] - from net.sf.ehcache.util.PropertyUtil in play-internal-execution-context-67 
+propertiesString is null.
+
+2014-08-17 20:26:05,635 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-67 
+No CacheManagerEventListenerFactory class specified. Skipping...
+
+2014-08-17 20:26:05,635 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-67 
+No BootstrapCacheLoaderFactory class specified. Skipping...
+
+2014-08-17 20:26:05,636 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-67 
+CacheWriter factory not configured. Skipping...
+
+2014-08-17 20:26:05,636 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-67 
+No CacheExceptionHandlerFactory class specified. Skipping...
+
+2014-08-17 20:26:05,637 - [DEBUG] - from net.sf.ehcache.store.MemoryStore in play-internal-execution-context-67 
+Initialized net.sf.ehcache.store.NotifyingMemoryStore for play
+
+2014-08-17 20:26:05,637 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-67 
+Initialised cache: play
+
+2014-08-17 20:26:05,637 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-67 
+CacheDecoratorFactory not configured for defaultCache. Skipping for 'play'.
+
+2014-08-17 20:26:05,637 - [DEBUG] - from application in play-internal-execution-context-67 
+** onStart **
+
+2014-08-17 20:26:06,228 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-67 
+ name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=15
+
+2014-08-17 20:26:06,229 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-67 
+ObjectName = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=15
+
+2014-08-17 20:26:06,229 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-67 
+name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=15
+
+2014-08-17 20:26:06,229 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-67 
+Send create notification of object com.mongodb:host=localhost/127.0.0.1,instance=15,port=27017,type=ConnectionPool
+
+2014-08-17 20:26:06,229 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-67 
+JMX.mbean.registered com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=15
+
+2014-08-17 20:26:06,233 - [DEBUG] - from application in play-internal-execution-context-67 
+** Morphia datastore: boomer
+
+2014-08-17 20:26:06,233 - [INFO] - from play in play-internal-execution-context-67 
+Application started (Dev)
+
+2014-08-17 20:26:07,404 - [DEBUG] - from com.google.code.morphia.mapping.MappedClass in play-akka.actor.default-dispatcher-582 
+MappedClass done: MappedClass - kind:User for model.User fields:[_id ( type:long, single:true); {interface com.google.code.morphia.annotations.Id=@com.google.code.morphia.annotations.Id()}, name ( type:String, single:true); {}, email ( type:String, single:true); {}, password ( type:String, single:true); {}, status ( type:String, single:true); {}]
+
+2014-08-17 20:33:58,181 - [DEBUG] - from com.google.code.morphia.mapping.MappedClass in play-akka.actor.default-dispatcher-654 
+MappedClass done: MappedClass - kind:Item for model.Item fields:[_id ( type:long, single:true); {interface com.google.code.morphia.annotations.Id=@com.google.code.morphia.annotations.Id()}, name ( type:String, single:true); {}, description ( type:String, single:true); {}]
+
+2014-08-17 20:35:59,091 - [DEBUG] - from play in play-internal-execution-context-80 
+Plugin [play.api.db.BoneCPPlugin] is disabled
+
+2014-08-17 20:35:59,092 - [DEBUG] - from play in play-internal-execution-context-80 
+Plugin [play.api.db.evolutions.EvolutionsPlugin] is disabled
+
+2014-08-17 20:35:59,100 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-80 
+Configuring ehcache from URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 20:35:59,100 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-80 
+Configuring ehcache from InputStream
+
+2014-08-17 20:35:59,102 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-80 
+Ignoring ehcache attribute xmlns:xsi
+
+2014-08-17 20:35:59,102 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-80 
+Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+
+2014-08-17 20:35:59,105 - [DEBUG] - from net.sf.ehcache.CacheManager in play-internal-execution-context-80 
+Creating new CacheManager with config URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 20:35:59,105 - [DEBUG] - from net.sf.ehcache.util.PropertyUtil in play-internal-execution-context-80 
+propertiesString is null.
+
+2014-08-17 20:35:59,106 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-80 
+No CacheManagerEventListenerFactory class specified. Skipping...
+
+2014-08-17 20:35:59,106 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-80 
+No BootstrapCacheLoaderFactory class specified. Skipping...
+
+2014-08-17 20:35:59,106 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-80 
+CacheWriter factory not configured. Skipping...
+
+2014-08-17 20:35:59,106 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-80 
+No CacheExceptionHandlerFactory class specified. Skipping...
+
+2014-08-17 20:35:59,107 - [DEBUG] - from net.sf.ehcache.store.MemoryStore in play-internal-execution-context-80 
+Initialized net.sf.ehcache.store.NotifyingMemoryStore for play
+
+2014-08-17 20:35:59,107 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-80 
+Initialised cache: play
+
+2014-08-17 20:35:59,108 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-80 
+CacheDecoratorFactory not configured for defaultCache. Skipping for 'play'.
+
+2014-08-17 20:35:59,108 - [DEBUG] - from application in play-internal-execution-context-80 
+** onStart **
+
+2014-08-17 20:35:59,700 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-80 
+ name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=16
+
+2014-08-17 20:35:59,701 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-80 
+ObjectName = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=16
+
+2014-08-17 20:35:59,701 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-80 
+name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=16
+
+2014-08-17 20:35:59,701 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-80 
+Send create notification of object com.mongodb:host=localhost/127.0.0.1,instance=16,port=27017,type=ConnectionPool
+
+2014-08-17 20:35:59,701 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-80 
+JMX.mbean.registered com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=16
+
+2014-08-17 20:35:59,706 - [DEBUG] - from application in play-internal-execution-context-80 
+** Morphia datastore: boomer
+
+2014-08-17 20:35:59,706 - [INFO] - from play in play-internal-execution-context-80 
+Application started (Dev)
+
+2014-08-17 20:36:00,136 - [DEBUG] - from com.google.code.morphia.mapping.MappedClass in play-akka.actor.default-dispatcher-669 
+MappedClass done: MappedClass - kind:Item for model.Item fields:[_id ( type:long, single:true); {interface com.google.code.morphia.annotations.Id=@com.google.code.morphia.annotations.Id()}, name ( type:String, single:true); {}, description ( type:String, single:true); {}]
+
+2014-08-17 20:36:00,149 - [DEBUG] - from com.google.code.morphia.mapping.MappedClass in play-akka.actor.default-dispatcher-670 
+MappedClass done: MappedClass - kind:User for model.User fields:[_id ( type:long, single:true); {interface com.google.code.morphia.annotations.Id=@com.google.code.morphia.annotations.Id()}, name ( type:String, single:true); {}, email ( type:String, single:true); {}, password ( type:String, single:true); {}, status ( type:String, single:true); {}]
+
+2014-08-17 20:36:18,548 - [DEBUG] - from play in play-internal-execution-context-80 
+Plugin [play.api.db.BoneCPPlugin] is disabled
+
+2014-08-17 20:36:18,548 - [DEBUG] - from play in play-internal-execution-context-80 
+Plugin [play.api.db.evolutions.EvolutionsPlugin] is disabled
+
+2014-08-17 20:36:18,556 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-80 
+Configuring ehcache from URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 20:36:18,556 - [DEBUG] - from net.sf.ehcache.config.ConfigurationFactory in play-internal-execution-context-80 
+Configuring ehcache from InputStream
+
+2014-08-17 20:36:18,558 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-80 
+Ignoring ehcache attribute xmlns:xsi
+
+2014-08-17 20:36:18,558 - [DEBUG] - from net.sf.ehcache.config.BeanHandler in play-internal-execution-context-80 
+Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+
+2014-08-17 20:36:18,559 - [DEBUG] - from net.sf.ehcache.CacheManager in play-internal-execution-context-80 
+Creating new CacheManager with config URL: jar:file:/home/dustin/DevelopmentTools/play-2.2.3/repository/local/com.typesafe.play/play-cache_2.10/2.2.3/jars/play-cache_2.10.jar!/ehcache-default.xml
+
+2014-08-17 20:36:18,559 - [DEBUG] - from net.sf.ehcache.util.PropertyUtil in play-internal-execution-context-80 
+propertiesString is null.
+
+2014-08-17 20:36:18,560 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-80 
+No CacheManagerEventListenerFactory class specified. Skipping...
+
+2014-08-17 20:36:18,560 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-80 
+No BootstrapCacheLoaderFactory class specified. Skipping...
+
+2014-08-17 20:36:18,560 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-80 
+CacheWriter factory not configured. Skipping...
+
+2014-08-17 20:36:18,560 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-80 
+No CacheExceptionHandlerFactory class specified. Skipping...
+
+2014-08-17 20:36:18,561 - [DEBUG] - from net.sf.ehcache.store.MemoryStore in play-internal-execution-context-80 
+Initialized net.sf.ehcache.store.NotifyingMemoryStore for play
+
+2014-08-17 20:36:18,561 - [DEBUG] - from net.sf.ehcache.Cache in play-internal-execution-context-80 
+Initialised cache: play
+
+2014-08-17 20:36:18,561 - [DEBUG] - from net.sf.ehcache.config.ConfigurationHelper in play-internal-execution-context-80 
+CacheDecoratorFactory not configured for defaultCache. Skipping for 'play'.
+
+2014-08-17 20:36:18,561 - [DEBUG] - from application in play-internal-execution-context-80 
+** onStart **
+
+2014-08-17 20:36:18,562 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-80 
+ name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=17
+
+2014-08-17 20:36:18,562 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-80 
+ObjectName = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=17
+
+2014-08-17 20:36:18,562 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-80 
+name = com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=17
+
+2014-08-17 20:36:18,562 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-80 
+Send create notification of object com.mongodb:host=localhost/127.0.0.1,instance=17,port=27017,type=ConnectionPool
+
+2014-08-17 20:36:18,562 - [DEBUG] - from javax.management.mbeanserver in play-internal-execution-context-80 
+JMX.mbean.registered com.mongodb:type=ConnectionPool,host=localhost/127.0.0.1,port=27017,instance=17
+
+2014-08-17 20:36:18,565 - [DEBUG] - from application in play-internal-execution-context-80 
+** Morphia datastore: boomer
+
+2014-08-17 20:36:18,565 - [INFO] - from play in play-internal-execution-context-80 
+Application started (Dev)
+
+2014-08-17 20:36:19,166 - [DEBUG] - from com.google.code.morphia.mapping.MappedClass in play-akka.actor.default-dispatcher-676 
+MappedClass done: MappedClass - kind:Item for model.Item fields:[_id ( type:long, single:true); {interface com.google.code.morphia.annotations.Id=@com.google.code.morphia.annotations.Id()}, name ( type:String, single:true); {}, description ( type:String, single:true); {}]
+
+2014-08-17 20:36:19,170 - [DEBUG] - from com.google.code.morphia.mapping.MappedClass in play-akka.actor.default-dispatcher-668 
+MappedClass done: MappedClass - kind:User for model.User fields:[_id ( type:long, single:true); {interface com.google.code.morphia.annotations.Id=@com.google.code.morphia.annotations.Id()}, name ( type:String, single:true); {}, email ( type:String, single:true); {}, password ( type:String, single:true); {}, status ( type:String, single:true); {}]
+
+2014-08-17 20:43:56,137 - [DEBUG] - from org.springframework.beans.CachedIntrospectionResults in play-akka.actor.default-dispatcher-726 
+Not strongly caching class [forms.AddItemRequest] because it is not cache-safe
+

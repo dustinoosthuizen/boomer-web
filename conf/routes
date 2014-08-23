@@ -1,0 +1,29 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET         /                                         controllers.Application.index()
+
+# users
+GET         /api/user/get/:id                         controllers.UserController.getUser(id: Integer)
+GET         /api/user/getByToken                      controllers.UserController.getUserByToken()
+GET         /api/user/getByEmail/:email               controllers.UserController.getUserByEmail(email: String)
+GET         /api/user/query                           controllers.UserController.getUsers()
+POST        /api/user/save                            controllers.UserController.saveUser()
+
+# registration
+POST        /api/registration/register                controllers.RegistrationController.register()
+GET         /api/registration/confirmation/:id        controllers.RegistrationController.confirmation(id:String)
+
+# login
+POST        /api/login/login                          controllers.LoginController.login()
+
+# items
+POST        /api/item/add                             controllers.ItemController.addItem()
+GET         /api/item/page/:page/:pageSize            controllers.ItemController.page(page: Integer,pageSize: Integer)
+
+
+# Map static resources from the /public folder to the /assets URL path
+GET         /assets/*file                             controllers.Assets.at(path="/public", file)
+

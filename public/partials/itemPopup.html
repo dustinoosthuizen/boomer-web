@@ -1,0 +1,29 @@
+<div class="ngdialog-message">
+    <h1>Add New Item</h1>
+    <form class="form-horizontal" role="form">
+        <div class="form-group" ngShow="addNewItemForm.showMessage">
+            <div class="col-sm-12">
+                <p class="bg-danger small">
+                    {{addNewItemForm.message}}
+                </p>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-12">
+                <input type="text" class="form-control" id="addNewItemName" placeholder="Name"
+                       ng-model="addNewItemForm.itemName">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-12">
+                <input type="password" class="form-control" id="addNewItemDescription" placeholder="Description"
+                       ng-model="addNewItemForm.itemDescription">
+            </div>
+        </div>
+    </form>
+
+</div>
+<div class="ngdialog-buttons">
+    <button type="button" class="btn btn-success" ng-click="addNew()">Confirm</button>
+    <button type="button" class="btn btn-danger" ng-click="closeThisDialog('button')">Cancel</button>
+</div>

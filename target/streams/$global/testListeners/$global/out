@@ -1,0 +1,24 @@
+[0m[[0minfo[0m] [0mMailSenderTest[0m
+[0m[[0minfo[0m] [0m[33mx[0m testMailSender[0m
+[0m[[31merror[0m] [0msbt.ForkMain$ForkError: There is no started application[0m
+[0m[[31merror[0m] [0m    at scala.sys.package$.error(package.scala:27)[0m
+[0m[[31merror[0m] [0m    at play.api.Play$$anonfun$current$1.apply(Play.scala:68)[0m
+[0m[[31merror[0m] [0m    at play.api.Play$$anonfun$current$1.apply(Play.scala:68)[0m
+[0m[[31merror[0m] [0m    at scala.Option.getOrElse(Option.scala:120)[0m
+[0m[[31merror[0m] [0m    at play.api.Play$.current(Play.scala:68)[0m
+[0m[[31merror[0m] [0m    at play.api.Play.current(Play.scala)[0m
+[0m[[31merror[0m] [0m    at play.Play.application(Play.java:12)[0m
+[0m[[31merror[0m] [0m    at utils.MailSender.sendConfirmationEmail(MailSender.java:12)[0m
+[0m[[31merror[0m] [0m    at MailSenderTest.testMailSender(MailSenderTest.java:12)[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mTotal for test MailSenderTest[0m
+[0m[[0minfo[0m] [0m[34mFinished in 0.031 seconds[0m[0m
+[0m[[0minfo[0m] [0m[34m1 tests, 1 failures, 0 errors[0m[0m
+[0m[[0minfo[0m] [0mUserTest[0m
+[0m[[0minfo[0m] [0m[32m+[0m testCrud[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mTotal for test UserTest[0m
+[0m[[0minfo[0m] [0m[34mFinished in 0.004 seconds[0m[0m
+[0m[[0minfo[0m] [0m[34m1 tests, 0 failures, 0 errors[0m[0m

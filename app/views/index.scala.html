@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Boomer</title>
+
+            <!-- Bootstrap -->
+        <link href='@routes.Assets.at("stylesheets/ngDialog.min.css")' rel="stylesheet">
+        <link href='@routes.Assets.at("stylesheets/ngDialog-theme-default.min.css")' rel="stylesheet">
+        <link href='@routes.Assets.at("stylesheets/ngDialog-theme-plain.min.css")' rel="stylesheet">
+        <link href='@routes.Assets.at("stylesheets/bootstrap.min.css")' rel="stylesheet">
+        <link href='@routes.Assets.at("stylesheets/main.css")' rel="stylesheet">
+            <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+            <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+            <!--[if lt IE 9]>
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+            <![endif]-->
+    </head>
+    <body>
+
+            @*<nav class="navbar navbar-default  navbar-fixed-top" role="navigation" >*@
+                @*<div class="container" ng-controller="navbarController">*@
+                    @*<div class="navbar-header">*@
+                        @*<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">*@
+                            @*<span class="sr-only">Toggle navigation</span>*@
+                            @*<span class="icon-bar"></span>*@
+                            @*<span class="icon-bar"></span>*@
+                            @*<span class="icon-bar"></span>*@
+                        @*</button>*@
+                        @*<a class="navbar-brand" href="htttp://www.binarytheme.com">booomer </a>*@
+                    @*</div>*@
+                    @*<div class="collapse navbar-collapse navbar-ex1-collapse">*@
+                    @*</div>*@
+                @*</div>*@
+            @*</nav>*@
+
+
+        @*<div class="main">*@
+            <div ui-view>
+
+
+            </div>
+        @*</div>*@
+                <!-- /.container -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.4/angular.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.4/angular-resource.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.4/angular-cookies.js"></script>
+        <script src="//angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
+        <script src='@routes.Assets.at("javascripts/other/bootstrap.min.js")'></script>
+        <script src='@routes.Assets.at("javascripts/other/ng-grid.js")' type="text/javascript"></script>
+        <script src='@routes.Assets.at("javascripts/other/ngDialog.min.js")' type="text/javascript"></script>
+
+
+        @*main*@
+        <script src='@routes.Assets.at("javascripts/config/app.js")' type="text/javascript"></script>
+
+        @*controllers*@
+        <script src='@routes.Assets.at("javascripts/controllers/userController.js")' type="text/javascript"></script>
+        <script src='@routes.Assets.at("javascripts/controllers/loginController.js")' type="text/javascript"></script>
+        <script src='@routes.Assets.at("javascripts/controllers/registerController.js")' type="text/javascript"></script>
+        <script src='@routes.Assets.at("javascripts/controllers/navbarController.js")' type="text/javascript"></script>
+        <script src='@routes.Assets.at("javascripts/controllers/itemController.js")' type="text/javascript"></script>
+
+
+        @*services*@
+        <script src='@routes.Assets.at("javascripts/services/userService.js")' type="text/javascript"></script>
+        <script src='@routes.Assets.at("javascripts/services/registrationService.js")' type="text/javascript"></script>
+        <script src='@routes.Assets.at("javascripts/services/loginService.js")' type="text/javascript"></script>
+        <script src='@routes.Assets.at("javascripts/services/itemService.js")' type="text/javascript"></script>
+
+
+
+        @*factories*@
+        <script src='@routes.Assets.at("javascripts/factories/authInterceptor.js")' type="text/javascript"></script>
+
+    </body>
+</html>

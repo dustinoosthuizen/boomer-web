@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="row">
+    <div class="col-lg-2">&nbsp;</div>
+    <div class="col-lg-8">&nbsp;</div>
+    <div class="col-lg-2">&nbsp;</div>
+    <!--<div class="col-md-4">&nbsp;</div>-->
+</div>
+    <div class="row">
+        <div class="col-lg-2">&nbsp;</div>
+        <div class="col-lg-8">&nbsp;</div>
+        <div class="col-lg-2">&nbsp;</div>
+        </div>
+    <div class="row">
+        <div class="col-lg-10">&nbsp;</div>
+        <div class="col-lg-2 pull-right"><button type="submit" class="btn btn-success" ng-click="newItem()">+</button></div>
+    </div>
+    <div class="row">
+        <div class="col-lg-2">&nbsp;</div>
+        <div ng-repeat="item in items" class="col-lg-8 black panel panel-default">
+
+                <div class="col-lg-2">&nbsp;</div>
+                <div class="col-lg-8">
+                    Name: {{item.name}}, Description {{item.description}}
+                </div>
+                <div class="col-lg-2">&nbsp;</div>
+
+        </div>
+        <div class="col-lg-2">&nbsp;</div>
+    </div>
+</div>

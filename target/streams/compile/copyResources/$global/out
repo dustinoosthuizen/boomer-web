@@ -1,0 +1,4 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/dustin/Dev/boomer/conf/play.plugins,/home/dustin/Dev/boomer/target/scala-2.10/classes/play.plugins)[0m
+[0m[[0mdebug[0m] [0m	(/home/dustin/Dev/boomer/conf/routes,/home/dustin/Dev/boomer/target/scala-2.10/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/home/dustin/Dev/boomer/conf/application.conf,/home/dustin/Dev/boomer/target/scala-2.10/classes/application.conf)[0m

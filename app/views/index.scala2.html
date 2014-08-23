@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+
+<head>
+    <title>AngularJS: UI-Router Quick Start</title>
+    <!-- Bootstrap CSS -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href='@routes.Assets.at("stylesheets/main.css")' rel="stylesheet">
+    <link href='@routes.Assets.at("stylesheets/ng-grid.css")' rel="stylesheet">
+</head>
+
+<body class="container">
+<!--<p><i>Best viewed in pop-out mode to see location changes. Click blue button on the right.</i></p>-->
+
+<div class="navbar">
+    <div class="navbar-inner">
+        <a class="brand" href="home">Quick Start</a>
+        <ul class="nav">
+            <li><a ui-sref="users">User Management</a></li>
+            <li><a ui-sref="groups">Group Management</a></li>
+        </ul>
+    </div>
+</div>
+
+    
+
+<div class="row">
+    <div class="span12">
+        <div class="well" ui-view></div>
+    </div>
+</div>
+
+<!-- Angular -->
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.4/angular.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.4/angular-resource.js"></script>
+<script src="//angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
+<script src='@routes.Assets.at("javascripts/app.js")' type="text/javascript"></script>
+<script src='@routes.Assets.at("javascripts/userController.js")' type="text/javascript"></script>
+<script src='@routes.Assets.at("javascripts/userService.js")' type="text/javascript"></script>
+<script src='@routes.Assets.at("javascripts/registrationController.js")' type="text/javascript"></script>
+<script src='@routes.Assets.at("javascripts/registrationService.js")' type="text/javascript"></script>
+<script src='@routes.Assets.at("javascripts/jquery-1.9.0.min.js")' type="text/javascript"></script>
+<script src='@routes.Assets.at("javascripts/ng-grid.js")' type="text/javascript"></script>
+</body>
+
+</html>
