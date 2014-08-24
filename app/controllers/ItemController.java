@@ -2,6 +2,7 @@ package controllers;
 
 import forms.AddItemRequest;
 import forms.AddItemResponse;
+import forms.ItemPageResponse;
 import model.Item;
 import play.data.Form;
 import play.libs.Json;
@@ -17,10 +18,11 @@ public class ItemController extends Controller {
 
     public static Result page(int page,int pageSize)
     {
-        List<Item> items = Item.all();
+        List<Item> items = Item.pageItems(page,pageSize);
         System.out.println("getting items "+items.size());
-
-        return ok(Json.toJson(items));
+        ItemPageResponse itemPageReponse = new ItemPageResponse();
+        itemPageReponse.setItems(items);
+        return ok(Json.toJson(itemPageReponse));
     }
 
     public static Result addItem() {
@@ -28,8 +30,8 @@ public class ItemController extends Controller {
         Form<AddItemRequest> addItemForm = Form.form(AddItemRequest.class);
         AddItemRequest addItemRequest = addItemForm.bindFromRequest().get();
 
-        String name = addItemRequest.getItemName();
-        String description = addItemRequest.getItemDescription();
+        String name = addItemRequest.getName();
+        String description = addItemRequest.getDescription();
         System.out.println(name);
         System.out.println(description);
         AddItemResponse addItemResponse = new AddItemResponse();
@@ -42,6 +44,7 @@ public class ItemController extends Controller {
 
             addItemResponse.setSuccess(true);
             addItemResponse.setMessage("Success");
+            addItemResponse.setAddedItem(item);
         }else
         {
             addItemResponse.setSuccess(false);

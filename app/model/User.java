@@ -2,6 +2,7 @@ package model;
 
 import com.google.code.morphia.annotations.Entity;
 import com.google.code.morphia.annotations.Id;
+import com.google.code.morphia.annotations.Property;
 import morphia.MorphiaObject;
 import org.bson.types.ObjectId;
 import play.Logger;
@@ -15,7 +16,8 @@ import java.util.List;
 public class User {
 
     @Id
-    private long id;
+    @Property("id")
+    private ObjectId id;
     private String name;
     private String email;
     private String password;
@@ -50,11 +52,11 @@ public class User {
 
     }
 
-    public long getId() {
+    public ObjectId getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(ObjectId id) {
         this.id = id;
     }
 
@@ -75,7 +77,7 @@ public class User {
 
     }
 
-    public static User findById(Long id) {
+    public static User findById(String id) {
 
         List<User> entities  = MorphiaObject.datastore.find(User.class).field("id").equal(id).asList();
         if (entities.isEmpty()) {

@@ -5,30 +5,30 @@ package forms;
  */
 public class AddItemRequest {
 
-    public String itemName;
-    public String itemDescription;
+    public String name;
+    public String description;
 
     public AddItemRequest() {
     }
 
     public AddItemRequest(String itemName, String itemDescription) {
-        this.itemName = itemName;
-        this.itemDescription = itemDescription;
+        this.name = itemName;
+        this.description = itemDescription;
     }
 
-    public String getItemName() {
-        return itemName;
+    public String getName() {
+        return name;
     }
 
-    public void setItemName(String itemName) {
-        this.itemName = itemName;
+    public void setName(String itemName) {
+        this.name = itemName;
     }
 
-    public String getItemDescription() {
-        return itemDescription;
+    public String getDescription() {
+        return description;
     }
 
-    public void setItemDescription(String itemDescription) {
-        this.itemDescription = itemDescription;
+    public void setDescription(String itemDescription) {
+        this.description = itemDescription;
     }
 }

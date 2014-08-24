@@ -67,7 +67,7 @@ public class EncryptionUtil {
         return new Long(plainText);
     }
 
-    public static String encryptLongReplaceForwardSlashWithSalt(Long value,String replacement)
+    public static String encryptLongReplaceForwardSlashWithSalt(String value,String replacement)
     {
         String salt = Play.application().configuration().getString("encryption.salt");
 //        String salt = "WR9bdtN3tMHg75PDK9PoIQ==";
@@ -81,7 +81,7 @@ public class EncryptionUtil {
 
 
 
-    public static Long decryptLongReplaceForwardSlashWithSalt(String value,String replacement)
+    public static String decryptLongReplaceForwardSlashWithSalt(String value,String replacement)
     {
         String salt = Play.application().configuration().getString("encryption.salt");
         StandardPBEStringEncryptor encryptor = new StandardPBEStringEncryptor();
@@ -90,7 +90,7 @@ public class EncryptionUtil {
         value =value.replace(replacement,"/");
         String plainText = encryptor.decrypt(value);
         plainText = plainText.replace(salt,"");
-        return new Long(plainText);
+        return plainText;
     }
 
     public static String encryptStringReplaceForwardSlashWithSalt(String value,String replacement)

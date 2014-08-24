@@ -24,6 +24,8 @@ public class UserController extends Controller {
 //        users.add(new User("name3","name3@email1"));
 //        users.add(new User("name4","name4@email1"));
 //        users.add(new User("name5","name5@email1"));
+        //
+        //
         users= User.all();
         return ok(Json.toJson(users));
     }

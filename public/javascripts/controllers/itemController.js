@@ -5,51 +5,42 @@ itemControllerModule.controller('itemController',
         function ($scope, $rootScope, $log, ngDialog,itemService) {
 
             $scope.items = [];
-            $scope.currentLoad = [];
+            $scope.newItemMessages = {};
+            $scope.newItem = {};
+
             var pageNumber = 0;
-            var pageSize = 20;
-            $scope.loadMore = function() {
+            var pageSize = 15;
 
-                $scope.items= itemService.pager().page({pageNumber:pageNumber,pageSize:pageSize});
+            $scope.loadItems = function() {
 
-                $scope.currentLoad  = itemService.pager().page({pageNumber:pageNumber,pageSize:pageSize});
+                itemService.pager().page({pageNumber:pageNumber,pageSize:pageSize},function (itemPageResponse) {
+                    console.log("pager success"+itemPageResponse);
 
-                console.log($scope.currentLoad)
-
-
-                angular.forEach($scope.currentLoad, function(item) {
-                    $scope.items.push(item);
-                });
-
+                        angular.forEach(itemPageResponse.items, function(item) {
+                            console.log(item.id);
+                            $scope.items.push(item);
+                        });
+                        pageNumber=pageNumber+1;
+                    });
             };
 
-            $scope.loadMore();
 
-            $scope.newItem = function () {
+//            $scope.loadItems();
+
+            $scope.gridOptions = {
+                data: 'items',
+                columnDefs: [{field: 'name', displayName: 'Name'},
+                    {field:'description', displayName:'Description'}]
+            };
+
+            $scope.newItemPopup = function () {
                 ngDialog.open({
                 template: 'assets/partials/itemPopup.html',
-                controller:'itemController',
-                className: 'ngdialog-theme-default width800'
+                controller:'itemPopupController',
+                className: 'ngdialog-theme-default width800',
+                scope:$scope
                 });
             };
-
-            $scope.addNewItemForm = {}
-
-            $scope.addNew = function(){
-                console.log("adding new item "+$scope.addNewItemForm.itemName);
-                itemService.api().save($scope.addNewItemForm, function (addItemResponse) {
-                    console.log("add Item success "+addItemResponse.success);
-                    if(addItemResponse.success) {
-                        ngDialog.close();
-                    }else
-                    {
-                        $scope.addNewItemForm.showMessage=true;
-                        $scope.addNewItemForm.message=addItemResponse.message;
-                    }
-                });
-
-            }
-
 
         }]);
 

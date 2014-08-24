@@ -18,7 +18,7 @@ itemServiceModule.service('itemService', function($resource,$window, $location, 
     this.pager = function() {
         console.log("calling item");
         return $resource('api/item/:action/:pageNumber/:pageSize', {}, {
-            'page':  {method:'GET',params:{action:'page'}, isArray:true}
+            'page':  {method:'GET',params:{action:'page'}}
         })
     }
 

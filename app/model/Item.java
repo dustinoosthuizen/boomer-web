@@ -3,6 +3,7 @@ package model;
 import com.google.code.morphia.annotations.Entity;
 import com.google.code.morphia.annotations.Id;
 import morphia.MorphiaObject;
+import org.bson.types.ObjectId;
 import play.Logger;
 
 import java.util.List;
@@ -14,7 +15,7 @@ import java.util.List;
 public class Item {
 
     @Id
-    private long id;
+    private ObjectId id;
     private String name;
     private String description;
 
@@ -47,11 +48,11 @@ public class Item {
 
     }
 
-    public long getId() {
+    public ObjectId getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(ObjectId id) {
         this.id = id;
     }
 
@@ -76,16 +77,20 @@ public class Item {
 
     }
 
-    public static Item findById(Long id) {
-
-        List<Item> entities  = MorphiaObject.datastore.find(Item.class).field("id").equal(id).asList();
-        if (entities.isEmpty()) {
-            return null;
-        } else {
-            return entities.get(0);
-        }
-
+    public static List<Item> pageItems(int page, int pageSize){
+        return MorphiaObject.datastore.find(Item.class).offset(page*pageSize).limit(pageSize).asList();
     }
+
+//    public static Item findById(Long id) {
+//
+//        List<Item> entities  = MorphiaObject.datastore.find(Item.class).field("id").equal(id).asList();
+//        if (entities.isEmpty()) {
+//            return null;
+//        } else {
+//            return entities.get(0);
+//        }
+//
+//    }
 
     public static void deleteAllByName(String name) {
 

@@ -29,7 +29,7 @@ public class RegistrationController extends Controller {
             user.setStatus("awaiting registration confirmation");
             User.save(user);
             try {
-                MailSenderUtil.sendConfirmationEmail(email, user.getId());
+                MailSenderUtil.sendConfirmationEmail(email, user.getId().toString());
                 registrationResponse.setSuccess(true);
                 registrationResponse.setMessage("Registration successfull, email has been sent to " + registrationRequest.getEmail() + " please verify by clicking link in email");
             } catch (Exception exc) {
@@ -49,8 +49,8 @@ public class RegistrationController extends Controller {
 
     public static Result confirmation(String confirmationId)
     {
-        Long userId = EncryptionUtil.decryptLongReplaceForwardSlashWithSalt(confirmationId, "_");
-        User user = User.findById(userId);
+        String userId = EncryptionUtil.decryptLongReplaceForwardSlashWithSalt(confirmationId, "_");
+        User user = User.findByMail(userId);
         String baseUrl = Play.application().configuration().getString("base.url");
         if(user.getStatus().equals("active"))
         {

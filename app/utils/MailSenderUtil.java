@@ -11,7 +11,7 @@ import play.Play;
  */
 public class MailSenderUtil {
 
-    public static void sendConfirmationEmail(String email,long userId)
+    public static void sendConfirmationEmail(String email,String userId)
     {
         try {
 
@@ -25,7 +25,7 @@ public class MailSenderUtil {
             mailer.setFrom(Play.application().configuration().getString("mail.from"));
 //            mailer.setFrom("registrations@boomer.com");
             mailer.setSubject("Boomer Registration");
-            String encryptedUserId = EncryptionUtil.encryptLongReplaceForwardSlashWithSalt(userId,"_");
+            String encryptedUserId = EncryptionUtil.encryptLongReplaceForwardSlashWithSalt(email+"","_");
             mailer.setMsg("Thanks for registering with boomer, please click on link to finish registration "+ Play.application().configuration().getString("base.url")+"/api/registration/confirmation/"+encryptedUserId);
             mailer.addTo(email);
             mailer.send();
